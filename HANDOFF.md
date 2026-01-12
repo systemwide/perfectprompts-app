@@ -81,6 +81,9 @@ Money goes to bank account (minus Gumroad's 10% fee)
 ```
 perfectprompts-app/
 ├── app/
+│   ├── api/
+│   │   └── subscribe/
+│   │       └── route.ts     # ConvertKit API integration
 │   ├── globals.css          # Tailwind + custom styles
 │   ├── layout.tsx           # Root layout, metadata
 │   └── page.tsx             # Main landing page (products defined here)
@@ -161,7 +164,7 @@ After Gumroad's 10% fee: ~$927/month net
 - Chose Gumroad over Stripe for simplicity (handles taxes, delivery, refunds)
 - Dark theme chosen for modern SaaS aesthetic
 - Framer Motion animations for engagement
-- Email capture ready but needs backend integration
+- Email capture integrated with ConvertKit API (requires env vars: CONVERTKIT_API_KEY, CONVERTKIT_FORM_ID)
 - Testimonials use anonymous format (first name + initial, generic role, no company) to avoid falsifiability
 
 ---
@@ -169,6 +172,8 @@ After Gumroad's 10% fee: ~$927/month net
 ## Change Log
 
 **Jan 12, 2025**
+- Added ConvertKit API integration for email capture (/api/subscribe)
+- Removed "lifetime updates" claims from FAQ and bundle
 - Updated pricing: $9/$49 → $7/$29 (lower friction for launch)
 - Reframed all product descriptions to problem-focused copy
 - Added "See the Difference" examples section with before/after prompts

@@ -25,14 +25,28 @@ export default function EmailCapture() {
 
     setStatus('loading')
 
-    // Simulate API call
-    await new Promise((resolve) => setTimeout(resolve, 1000))
+    try {
+      const response = await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email }),
+      })
 
-    // For now, just log the email
-    console.log('Email captured:', email)
+      const data = await response.json()
 
-    setStatus('success')
-    setEmail('')
+      if (!response.ok) {
+        throw new Error(data.error || 'Failed to subscribe')
+      }
+
+      setStatus('success')
+      setEmail('')
+    } catch (error) {
+      console.error('Subscription error:', error)
+      setErrorMessage('Something went wrong. Please try again.')
+      setStatus('error')
+    }
   }
 
   return (

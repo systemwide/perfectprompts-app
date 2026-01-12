@@ -191,21 +191,30 @@ Edit `/components/Testimonials.tsx` to add real customer testimonials.
 ### Update Colors
 Edit `/tailwind.config.ts` to change the color scheme.
 
-## Adding Email Capture
+## Email Capture (ConvertKit)
 
-The email capture form currently logs to console. To make it functional:
+The email signup form is integrated with ConvertKit. To set it up:
 
-**Option 1: Gumroad Email**
-- Use Gumroad's built-in email collection
+### Step 1: Create ConvertKit Account
+1. Sign up at [convertkit.com](https://convertkit.com) (free up to 10,000 subscribers)
+2. Go to **Settings** → **Advanced** → Copy your **API Key**
 
-**Option 2: ConvertKit/Mailchimp**
-- Create an API route in `/app/api/subscribe/route.ts`
-- Connect to your email service
+### Step 2: Create a Form
+1. In ConvertKit, go to **Grow** → **Landing Pages & Forms**
+2. Create a new Form (can be minimal - we use our own design)
+3. Copy the **Form ID** from the URL (e.g., `https://app.convertkit.com/forms/designers/12345` → ID is `12345`)
 
-**Option 3: Supabase**
-- Set up a Supabase project
-- Create an emails table
-- Add the API route to store emails
+### Step 3: Set Environment Variables
+Create a `.env.local` file in the project root:
+```bash
+CONVERTKIT_API_KEY=your_api_key_here
+CONVERTKIT_FORM_ID=your_form_id_here
+```
+
+### Step 4: Set Up Automation (Optional)
+1. In ConvertKit, go to **Automate** → **Visual Automations**
+2. Create automation: "When subscriber joins form → Send email with free prompts PDF"
+3. Upload your free prompts PDF to the email or link to a hosted version
 
 ## Marketing Tips
 
