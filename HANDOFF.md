@@ -136,13 +136,10 @@ Edit `/app/layout.tsx` - update title, description, and Open Graph tags.
 
 | Product | Price | Prompts | $/prompt |
 |---------|-------|---------|----------|
-| Individual packs | $9 | 20 | $0.45 |
-| Complete bundle | $49 | 120 | $0.41 |
+| Individual packs | $7 | 20 | $0.35 |
+| Complete bundle | $29 | 120 | $0.24 |
 
-Market research shows this is competitive:
-- Budget packs: $3-5
-- Quality curated (us): $9-15
-- Premium/specialized: $15-20+
+Pricing rationale: Starting lower to reduce friction for first sales, build reviews/testimonials, then can raise prices later.
 
 ---
 
@@ -171,6 +168,12 @@ After Gumroad's 10% fee: ~$927/month net
 
 ## Change Log
 
+**Jan 12, 2025**
+- Updated pricing: $9/$49 → $7/$29 (lower friction for launch)
+- Reframed all product descriptions to problem-focused copy
+- Added "See the Difference" examples section with before/after prompts
+- Updated bundle savings badge to 30%
+
 **Jan 8, 2025**
 - Fixed nav links: Products, How It Works, Reviews (all point to real sections)
 - Made testimonials anonymous to avoid fake company names being Googled
@@ -181,4 +184,4 @@ After Gumroad's 10% fee: ~$927/month net
 
 ## Last Updated
 
-January 8, 2025
+January 12, 2025
