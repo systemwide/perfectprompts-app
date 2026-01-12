@@ -105,7 +105,6 @@ const bundle = {
   features: [
     'All 6 prompt packs included',
     '120+ premium prompts',
-    'Free lifetime updates',
     'Bonus: Prompt engineering guide',
   ],
   gumroadUrl: 'https://perfectprompts.gumroad.com/l/bundle',
@@ -363,10 +362,6 @@ export default function Home() {
               {
                 q: 'What AI tools do these prompts work with?',
                 a: 'These prompts work with any large language model including ChatGPT (GPT-4, GPT-3.5), Claude, Gemini, Llama, and others. The prompt engineering techniques are universal.',
-              },
-              {
-                q: 'Do I get updates when you add new prompts?',
-                a: 'Yes! Bundle purchasers get free lifetime updates. Individual pack purchasers get updates for their specific packs.',
               },
               {
                 q: 'What format are the prompts delivered in?',
