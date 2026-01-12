@@ -11,42 +11,42 @@ import { motion } from 'framer-motion'
 const products = [
   {
     id: 'marketing',
-    title: 'Marketing & Advertising Prompts',
-    description: '20 battle-tested prompts for ad copy, email sequences, brand voice, and customer personas.',
-    price: 9,
+    title: 'Marketing & Advertising',
+    description: 'Turn product features into scroll-stopping ad copy that converts.',
+    price: 7,
     features: [
-      'Facebook & Google ad copy generators',
-      'Email marketing sequence builders',
-      'Customer persona creators',
-      'Landing page copy frameworks',
+      'Vague idea → Facebook ad that sells',
+      'Features list → Compelling headlines',
+      'Blank page → Email sequences that convert',
+      'Generic pitch → Targeted customer personas',
     ],
     gumroadUrl: 'https://perfectprompts.gumroad.com/l/marketing',
     icon: '📈',
   },
   {
     id: 'content',
-    title: 'Content Writing Prompts',
-    description: '20 prompts for SEO blogs, engaging headlines, content repurposing, and newsletter writing.',
-    price: 9,
+    title: 'Content Writing',
+    description: 'Transform rough drafts into polished, SEO-optimized content.',
+    price: 7,
     features: [
-      'SEO-optimized blog post writers',
-      'Headline & hook generators',
-      'Content repurposing frameworks',
-      'Newsletter writing templates',
+      'Rough notes → Published blog post',
+      'Topic idea → SEO-optimized article',
+      'One piece → 10 repurposed formats',
+      'Blank page → Engaging newsletter',
     ],
     gumroadUrl: 'https://perfectprompts.gumroad.com/l/content',
     icon: '✍️',
   },
   {
     id: 'coding',
-    title: 'Coding & Development Prompts',
-    description: '20 prompts for code review, debugging, architecture decisions, and documentation.',
-    price: 9,
+    title: 'Coding & Development',
+    description: 'Debug faster, document cleaner, ship code with confidence.',
+    price: 7,
     features: [
-      'Code review & improvement prompts',
-      'Debugging assistance frameworks',
-      'Architecture decision helpers',
-      'Documentation generators',
+      'Messy code → Production-ready',
+      'Cryptic bug → Root cause + fix',
+      'Spaghetti → Clean architecture',
+      'Undocumented → Fully documented',
     ],
     gumroadUrl: 'https://perfectprompts.gumroad.com/l/coding',
     icon: '💻',
@@ -54,42 +54,42 @@ const products = [
   },
   {
     id: 'business',
-    title: 'Business & Strategy Prompts',
-    description: '20 prompts for business planning, SWOT analysis, OKRs, and strategic decision-making.',
-    price: 9,
+    title: 'Business & Strategy',
+    description: 'Go from vague idea to investor-ready business plan.',
+    price: 7,
     features: [
-      'Business plan generators',
-      'SWOT & competitive analysis',
-      'OKR and goal-setting frameworks',
-      'Decision-making templates',
+      'Napkin sketch → Business plan',
+      'Gut feeling → Data-driven decision',
+      'Scattered goals → Clear OKRs',
+      'Unknown market → Competitive analysis',
     ],
     gumroadUrl: 'https://perfectprompts.gumroad.com/l/business',
     icon: '💼',
   },
   {
     id: 'creative',
-    title: 'Creative & Art Direction Prompts',
-    description: '20 prompts for image generation, creative brainstorming, naming, and design feedback.',
-    price: 9,
+    title: 'Creative & Art Direction',
+    description: 'Generate stunning visuals and breakthrough creative ideas.',
+    price: 7,
     features: [
-      'Midjourney/DALL-E prompt builders',
-      'Creative brainstorming frameworks',
-      'Brand naming generators',
-      'Design critique templates',
+      'Vague vision → Perfect AI image',
+      'Creative block → 20 fresh concepts',
+      'No name → Brand name shortlist',
+      'Design draft → Expert critique',
     ],
     gumroadUrl: 'https://perfectprompts.gumroad.com/l/creative',
     icon: '🎨',
   },
   {
     id: 'productivity',
-    title: 'Productivity & Personal Prompts',
-    description: '20 prompts for task prioritization, learning, problem-solving, and personal growth.',
-    price: 9,
+    title: 'Productivity & Growth',
+    description: 'Get unstuck, learn faster, and make better decisions.',
+    price: 7,
     features: [
-      'Task prioritization frameworks',
-      'Learning accelerator prompts',
-      'Problem-solving templates',
-      'Weekly review generators',
+      'Overwhelmed → Prioritized action plan',
+      'New topic → Accelerated mastery',
+      'Stuck problem → Clear solution path',
+      'Busy week → Meaningful progress',
     ],
     gumroadUrl: 'https://perfectprompts.gumroad.com/l/productivity',
     icon: '🚀',
@@ -99,9 +99,9 @@ const products = [
 const bundle = {
   id: 'bundle',
   title: 'Complete Prompt Bundle',
-  description: 'All 6 prompt packs (120+ prompts) at 45% off. Everything you need to master AI.',
-  price: 49,
-  originalPrice: 90,
+  description: 'All 6 packs. 120+ prompts. Every problem solved.',
+  price: 29,
+  originalPrice: 42,
   features: [
     'All 6 prompt packs included',
     '120+ premium prompts',
@@ -112,6 +112,30 @@ const bundle = {
   icon: '🎁',
   popular: true,
 }
+
+const examples = [
+  {
+    category: 'Marketing',
+    problem: 'You need Facebook ad copy but stare at a blank page',
+    genericPrompt: 'Write a Facebook ad for my product',
+    ourPrompt: `You are a direct response copywriter who has generated over $100M in Facebook ad revenue. Create 3 ad variations using the Hook-Story-Offer framework for [PRODUCT]. Target: [AUDIENCE]. Pain point: [PROBLEM]. Include pattern interrupt hooks, relatable stories, and clear CTAs with urgency.`,
+    result: 'Three complete ad variations with different emotional angles (FOMO, transformation, social proof) - ready to test.',
+  },
+  {
+    category: 'Coding',
+    problem: 'Your code works but you\'re not sure if it\'s production-ready',
+    genericPrompt: 'Review my code',
+    ourPrompt: `You are a senior engineer with 15+ years experience. Review this code for: CRITICAL ISSUES (security, crashes), CODE QUALITY (SOLID principles, DRY), PERFORMANCE (time/space complexity), and provide a REFACTORED VERSION with comments.`,
+    result: 'Comprehensive review with specific line-by-line fixes, security audit, performance analysis, and improved code.',
+  },
+  {
+    category: 'Business',
+    problem: 'You have an idea but need to validate it quickly',
+    genericPrompt: 'Help me with my business idea',
+    ourPrompt: `Act as a startup advisor who has evaluated 500+ pitches. For [IDEA], provide: Market size estimate with sources, Top 5 competitors + gaps, Customer segments ranked by accessibility, 3 critical assumptions to test first, and a 2-week validation plan.`,
+    result: 'Structured validation framework with specific next steps, not generic advice.',
+  },
+]
 
 export default function Home() {
   return (
@@ -129,10 +153,10 @@ export default function Home() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-white mb-4">
-              Premium Prompt Templates
+              Solve Real Problems, Not Just &quot;Get Prompts&quot;
             </h2>
             <p className="text-xl text-slate-400 max-w-2xl mx-auto">
-              Each pack contains 20 meticulously crafted prompts with usage tips and examples.
+              Each pack tackles 20 specific challenges. Copy, paste, customize, and get results.
               Works with ChatGPT, Claude, Gemini, and any LLM.
             </p>
           </motion.div>
@@ -149,7 +173,7 @@ export default function Home() {
                 <div className="flex flex-col md:flex-row items-center justify-between gap-8">
                   <div className="flex-1">
                     <div className="inline-block px-4 py-1 bg-gradient-to-r from-purple-600 to-blue-600 text-white text-sm font-semibold rounded-full mb-4">
-                      BEST VALUE - SAVE 45%
+                      BEST VALUE - SAVE 30%
                     </div>
                     <h3 className="text-3xl font-bold text-white mb-2">{bundle.title}</h3>
                     <p className="text-slate-400 mb-4">{bundle.description}</p>
@@ -195,6 +219,71 @@ export default function Home() {
                 transition={{ delay: index * 0.1 }}
               >
                 <ProductCard {...product} />
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Examples Section */}
+      <section className="py-20 px-4 bg-slate-800/50">
+        <div className="max-w-6xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-4xl font-bold text-white mb-4">
+              See the Difference
+            </h2>
+            <p className="text-xl text-slate-400 max-w-2xl mx-auto">
+              Generic prompts get generic results. Here&apos;s what our prompts actually do.
+            </p>
+          </motion.div>
+
+          <div className="space-y-12">
+            {examples.map((example, index) => (
+              <motion.div
+                key={example.category}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.1 }}
+                className="bg-slate-900 rounded-2xl p-8 border border-slate-700"
+              >
+                <div className="flex items-center gap-3 mb-6">
+                  <span className="px-3 py-1 bg-purple-500/20 text-purple-400 text-sm font-medium rounded-full">
+                    {example.category}
+                  </span>
+                  <span className="text-slate-400 text-sm">{example.problem}</span>
+                </div>
+
+                <div className="grid md:grid-cols-2 gap-6">
+                  {/* Generic Prompt */}
+                  <div className="space-y-3">
+                    <div className="flex items-center gap-2">
+                      <span className="text-red-400">✗</span>
+                      <span className="text-slate-400 font-medium">Generic prompt</span>
+                    </div>
+                    <div className="bg-slate-800 rounded-lg p-4 border border-slate-700">
+                      <code className="text-slate-300 text-sm">{example.genericPrompt}</code>
+                    </div>
+                    <p className="text-slate-500 text-sm">Gets you generic, surface-level responses</p>
+                  </div>
+
+                  {/* Our Prompt */}
+                  <div className="space-y-3">
+                    <div className="flex items-center gap-2">
+                      <span className="text-green-400">✓</span>
+                      <span className="text-green-400 font-medium">PerfectPrompts version</span>
+                    </div>
+                    <div className="bg-slate-800 rounded-lg p-4 border border-green-500/30">
+                      <code className="text-slate-300 text-sm">{example.ourPrompt.slice(0, 150)}...</code>
+                    </div>
+                    <p className="text-green-400 text-sm">{example.result}</p>
+                  </div>
+                </div>
               </motion.div>
             ))}
           </div>
@@ -330,7 +419,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="inline-block px-8 py-4 bg-white text-purple-600 font-semibold rounded-lg hover:bg-gray-100 transition-colors text-lg"
             >
-              Get the Complete Bundle - $49 →
+              Get the Complete Bundle - $29 →
             </a>
             <p className="text-purple-200 mt-4 text-sm">
               30-day money-back guarantee • Instant download
