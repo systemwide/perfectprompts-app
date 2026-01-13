@@ -11,43 +11,63 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    const CONVERTKIT_API_KEY = process.env.CONVERTKIT_API_KEY
-    const CONVERTKIT_FORM_ID = process.env.CONVERTKIT_FORM_ID
+    const API_KEY = process.env.CONVERTKIT_API_KEY
+    const FORM_ID = process.env.CONVERTKIT_FORM_ID
 
-    if (!CONVERTKIT_API_KEY || !CONVERTKIT_FORM_ID) {
-      console.error('ConvertKit environment variables not configured')
+    if (!API_KEY || !FORM_ID) {
+      console.error('Kit environment variables not configured')
       return NextResponse.json(
         { error: 'Email service not configured' },
         { status: 500 }
       )
     }
 
-    // Subscribe to ConvertKit form
-    const response = await fetch(
-      `https://api.convertkit.com/v4/forms/${CONVERTKIT_FORM_ID}/subscribe`,
+    const headers = {
+      'Content-Type': 'application/json',
+      'X-Kit-Api-Key': API_KEY,
+    }
+
+    // Step 1: Create subscriber (or get existing)
+    const createResponse = await fetch('https://api.kit.com/v4/subscribers', {
+      method: 'POST',
+      headers,
+      body: JSON.stringify({ email_address: email }),
+    })
+
+    if (!createResponse.ok) {
+      const errorData = await createResponse.json().catch(() => ({}))
+      console.error('Kit create subscriber error:', errorData)
+
+      // If subscriber already exists, that's fine - continue to add to form
+      if (createResponse.status !== 422) {
+        return NextResponse.json(
+          { error: 'Failed to create subscriber' },
+          { status: 500 }
+        )
+      }
+    }
+
+    // Step 2: Add subscriber to form by email
+    const formResponse = await fetch(
+      `https://api.kit.com/v4/forms/${FORM_ID}/subscribers`,
       {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          Authorization: `Bearer ${CONVERTKIT_API_KEY}`,
-        },
-        body: JSON.stringify({
-          email_address: email,
-        }),
+        headers,
+        body: JSON.stringify({ email_address: email }),
       }
     )
 
-    if (!response.ok) {
-      const errorData = await response.json().catch(() => ({}))
-      console.error('ConvertKit API error:', errorData)
+    if (!formResponse.ok) {
+      const errorData = await formResponse.json().catch(() => ({}))
+      console.error('Kit add to form error:', errorData)
 
-      // Handle already subscribed case gracefully
-      if (response.status === 422) {
+      // 422 likely means already subscribed to this form - that's success
+      if (formResponse.status === 422) {
         return NextResponse.json({ success: true, message: 'Already subscribed' })
       }
 
       return NextResponse.json(
-        { error: 'Failed to subscribe' },
+        { error: 'Failed to subscribe to form' },
         { status: 500 }
       )
     }
