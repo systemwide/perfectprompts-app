@@ -1,0 +1,175 @@
+/* PerfectPrompts.ai PDF Styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --primary-600: #9333ea;
+  --primary-700: #7c3aed;
+  --secondary-500: #3b82f6;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-600: #4b5563;
+  --gray-700: #374151;
+  --gray-800: #1f2937;
+  --gray-900: #111827;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 11pt;
+  line-height: 1.6;
+  color: var(--gray-800);
+  max-width: 100%;
+  margin: 0;
+  padding: 40px 50px;
+}
+
+/* Header styling */
+h1 {
+  font-size: 28pt;
+  font-weight: 700;
+  color: var(--primary-600);
+  margin-bottom: 8px;
+  padding-bottom: 16px;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(135deg, #9333ea 0%, #3b82f6 100%) 1;
+}
+
+h1::after {
+  content: "PerfectPrompts.ai";
+  display: block;
+  font-size: 10pt;
+  font-weight: 500;
+  color: var(--gray-600);
+  margin-top: 8px;
+}
+
+h2 {
+  font-size: 18pt;
+  font-weight: 600;
+  color: var(--gray-900);
+  margin-top: 32px;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--gray-200);
+}
+
+h3 {
+  font-size: 14pt;
+  font-weight: 600;
+  color: var(--primary-700);
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+h4 {
+  font-size: 12pt;
+  font-weight: 600;
+  color: var(--gray-700);
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+/* Paragraph styling */
+p {
+  margin-bottom: 12px;
+  color: var(--gray-700);
+}
+
+/* Code blocks - the actual prompts */
+pre {
+  background: linear-gradient(135deg, #faf5ff 0%, #eff6ff 100%);
+  border: 1px solid var(--gray-200);
+  border-left: 4px solid var(--primary-600);
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin: 16px 0;
+  overflow-x: auto;
+  font-size: 10pt;
+  line-height: 1.5;
+}
+
+pre code {
+  font-family: 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace;
+  color: var(--gray-800);
+  background: transparent;
+  padding: 0;
+}
+
+/* Inline code */
+code {
+  font-family: 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace;
+  background-color: var(--gray-100);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 10pt;
+  color: var(--primary-700);
+}
+
+/* Lists */
+ul, ol {
+  margin: 12px 0;
+  padding-left: 24px;
+}
+
+li {
+  margin-bottom: 6px;
+  color: var(--gray-700);
+}
+
+/* Horizontal rules */
+hr {
+  border: none;
+  border-top: 1px solid var(--gray-200);
+  margin: 24px 0;
+}
+
+/* Strong/Bold text */
+strong {
+  font-weight: 600;
+  color: var(--gray-900);
+}
+
+/* Emphasis */
+em {
+  font-style: italic;
+  color: var(--gray-600);
+}
+
+/* Tips sections */
+p strong:first-child {
+  color: var(--primary-600);
+}
+
+/* Blockquotes for tips/notes */
+blockquote {
+  background-color: #fef3c7;
+  border-left: 4px solid #f59e0b;
+  padding: 12px 16px;
+  margin: 16px 0;
+  border-radius: 0 8px 8px 0;
+}
+
+blockquote p {
+  margin: 0;
+  color: var(--gray-800);
+}
+
+/* Page breaks before major sections */
+h2 {
+  page-break-before: auto;
+}
+
+/* Avoid breaking inside code blocks */
+pre {
+  page-break-inside: avoid;
+}
+
+/* Footer */
+@page {
+  margin: 0.75in;
+  @bottom-center {
+    content: "PerfectPrompts.ai";
+    font-size: 9pt;
+    color: #9333ea;
+  }
+}

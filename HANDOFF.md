@@ -2,35 +2,37 @@
 
 ## NEXT SESSION: START HERE
 
-### Immediate Task
-Convert the 6 prompt pack markdown files to deliverable formats:
-- **PDF** - Nicely formatted with branding
-- **Plain text (.txt)** - For easy copy-paste
+### Immediate Tasks (in order)
 
-Files to convert (in `/prompts/`):
-1. `marketing-prompts.md` (35KB)
-2. `content-writing-prompts.md` (42KB)
-3. `coding-prompts.md` (48KB)
-4. `business-prompts.md` (18KB)
-5. `creative-prompts.md` (15KB)
-6. `productivity-prompts.md` (14KB)
+#### 1. Fix Email Deliverability (IMPORTANT)
+Emails are going to spam because you're sending from `perfectprompts.ai@gmail.com`. Fix:
+1. **Create domain email in Hostinger:** `hello@perfectprompts.ai`
+2. **In Kit:** Settings → Email → Add new sender email
+3. **Verify:** Add SPF/DKIM DNS records (Kit will guide you)
 
-Also create: **"5 Free Prompts" PDF** for email signup lead magnet
+#### 2. Finish Lead Magnet Setup in Kit
+The incentive email is set up but needs the PDF attached:
+1. Go to: https://app.kit.com/forms/designers/8968372/edit
+2. Edit the **Incentive Email** settings
+3. Click the **"Download"** button at bottom of editor
+4. Upload: `deliverables/pdf/free-prompts.pdf`
+5. Save - subscribers will get the PDF after clicking "Confirm subscription"
 
-### Then Complete These Steps
+#### 3. Create Kit Commerce Products
+Create 7 products in Kit:
+- 6 individual packs @ $7 each
+- 1 bundle (all 6) @ $29
 
-1. **Kit Automation:** Set up automation to send free prompts PDF when someone subscribes to form ID `8968372`
-2. **Kit Commerce:** Create 7 products ($7 each × 6 packs + $29 bundle)
-3. **Code Update:** Update product URLs in `/app/page.tsx` once Kit products are created
-4. **Hostinger Deployment:**
-   - Delete WordPress site on perfectprompts.ai
-   - Add Node.js Web App from GitHub (`systemwide/perfectprompts-app`, branch: `main`)
-   - Set environment variables:
-     ```
-     CONVERTKIT_API_KEY=kit_342c1e17353a083ce1a0a5c2c855bce2
-     CONVERTKIT_FORM_ID=8968372
-     ```
-   - Connect perfectprompts.ai domain
+For each product, upload both PDF and TXT files from `deliverables/` folder.
+
+#### 4. Update Product URLs in Code
+After creating Kit products, update URLs in `/app/page.tsx`
+
+#### 5. Deploy to Hostinger
+- Delete WordPress site on perfectprompts.ai
+- Add Node.js Web App from GitHub (`systemwide/perfectprompts-app`, branch: `main`)
+- Set environment variables
+- Connect domain
 
 ---
 
@@ -65,11 +67,15 @@ Also create: **"5 Free Prompts" PDF** for email signup lead magnet
 - [x] All 6 prompt pack content files (markdown)
 - [x] GitHub repo created and up to date
 - [x] Build passes
+- [x] **PDF + TXT conversion** - All 6 packs converted
+- [x] **Free lead magnet PDF** - Created with 5 sample prompts
+- [x] **Kit form incentive email** - Copy added, needs PDF upload
+
+### In Progress
+- [ ] Lead magnet PDF upload to Kit form (just needs the file uploaded)
+- [ ] Email deliverability fix (need domain email setup)
 
 ### Pending
-- [ ] Convert .md files to PDF + .txt formats
-- [ ] Create "5 Free Prompts" lead magnet PDF
-- [ ] Set up Kit automation for lead magnet delivery
 - [ ] Create 7 products on Kit Commerce
 - [ ] Update product URLs in code
 - [ ] Deploy to Hostinger
@@ -82,29 +88,49 @@ Also create: **"5 Free Prompts" PDF** for email signup lead magnet
 ```
 perfectprompts-app/
 ├── app/
-│   ├── api/
-│   │   └── subscribe/
-│   │       └── route.ts     # Kit API v4 integration (working)
+│   ├── api/subscribe/route.ts  # Kit API v4 integration (working)
 │   ├── globals.css
 │   ├── layout.tsx
-│   └── page.tsx             # Main page - product URLs defined here
+│   └── page.tsx                # Main page - product URLs defined here
 ├── components/
 │   ├── Header.tsx
 │   ├── Hero.tsx
 │   ├── ProductCard.tsx
 │   ├── Testimonials.tsx
-│   ├── EmailCapture.tsx     # Uses /api/subscribe
+│   ├── EmailCapture.tsx        # Uses /api/subscribe
 │   └── Footer.tsx
-├── prompts/                  # SOURCE FILES - need PDF conversion
+├── prompts/                    # Source markdown files
 │   ├── marketing-prompts.md
 │   ├── content-writing-prompts.md
 │   ├── coding-prompts.md
 │   ├── business-prompts.md
 │   ├── creative-prompts.md
-│   └── productivity-prompts.md
-├── .env.local               # Kit credentials (gitignored)
-├── .env.example             # Template for env vars
-└── HANDOFF.md               # This file
+│   ├── productivity-prompts.md
+│   └── free-prompts.md         # Lead magnet source
+├── deliverables/               # READY TO USE - upload these to Kit
+│   ├── pdf/
+│   │   ├── marketing-prompts.pdf
+│   │   ├── content-writing-prompts.pdf
+│   │   ├── coding-prompts.pdf
+│   │   ├── business-prompts.pdf
+│   │   ├── creative-prompts.pdf
+│   │   ├── productivity-prompts.pdf
+│   │   └── free-prompts.pdf    # Lead magnet
+│   └── txt/
+│       ├── marketing-prompts.txt
+│       ├── content-writing-prompts.txt
+│       ├── coding-prompts.txt
+│       ├── business-prompts.txt
+│       ├── creative-prompts.txt
+│       ├── productivity-prompts.txt
+│       └── free-prompts.txt
+├── scripts/
+│   ├── convert-prompts.js      # Converts all 6 packs
+│   ├── convert-lead-magnet.js  # Converts free prompts
+│   └── pdf-styles.css          # PDF styling with brand colors
+├── .env.local                  # Kit credentials (gitignored)
+├── .env.example                # Template for env vars
+└── HANDOFF.md                  # This file
 ```
 
 ---
@@ -115,37 +141,50 @@ perfectprompts-app/
 - **API Key:** `kit_342c1e17353a083ce1a0a5c2c855bce2`
 - **Form ID:** `8968372`
 - **Auth Header:** `X-Kit-Api-Key` (NOT Bearer token)
-- **Endpoints:**
-  - Create subscriber: `POST https://api.kit.com/v4/subscribers`
-  - Add to form: `POST https://api.kit.com/v4/forms/{id}/subscribers`
 
-### Product URLs (need updating)
-In `/app/page.tsx`, the `products` array has placeholder Gumroad URLs. These need to be replaced with Kit Commerce URLs once products are created.
+### Kit Form URL
+- Edit form: https://app.kit.com/forms/designers/8968372/edit
 
----
-
-## Deliverable Formats Promised
-
-From FAQ on website:
-> "You receive a PDF with all prompts, organized by category with usage tips and example outputs. You also get a plain text version for easy copy-paste."
-
-So each product needs:
-1. **PDF** - Formatted nicely
-2. **TXT** - Plain text for copy-paste
+### Environment Variables (for Hostinger)
+```
+CONVERTKIT_API_KEY=kit_342c1e17353a083ce1a0a5c2c855bce2
+CONVERTKIT_FORM_ID=8968372
+```
 
 ---
 
-## Notes & Decisions
+## Known Issues
 
-- Using Kit Commerce (3.5% fee) as primary, Gumroad (10% fee) as secondary marketplace
-- Kit handles both email list AND product sales in one platform
-- Testimonials use anonymous format (first name + initial only)
-- No "lifetime updates" claims - removed from site
-- Hosting on Hostinger Node.js (user already paying for it) instead of Vercel
+### Email Going to Spam
+- **Cause:** Sending from `perfectprompts.ai@gmail.com` via Kit
+- **Fix:** Set up `hello@perfectprompts.ai` in Hostinger, add as sender in Kit with SPF/DKIM
+
+---
+
+## Deliverables Ready
+
+All product files are in `deliverables/` folder:
+
+| Product | PDF | TXT |
+|---------|-----|-----|
+| Marketing & Advertising | 887KB | 30KB |
+| Content Writing | 983KB | 35KB |
+| Coding & Development | 1.2MB | 40KB |
+| Business & Strategy | 510KB | 18KB |
+| Creative Writing | 516KB | 15KB |
+| Productivity | 452KB | 15KB |
+| **Free Lead Magnet** | 255KB | - |
 
 ---
 
 ## Change Log
+
+**Jan 14, 2025**
+- Converted all 6 prompt packs to PDF + TXT formats
+- Created free lead magnet (5 prompts sampled from packs)
+- Set up Kit incentive email copy
+- Identified email deliverability issue (gmail sender → spam)
+- Added conversion scripts for future updates
 
 **Jan 13, 2025**
 - Fixed Kit API v4 integration (X-Kit-Api-Key header, two-step subscriber flow)
@@ -158,14 +197,12 @@ So each product needs:
 - Updated pricing: $9/$49 → $7/$29
 - Reframed product descriptions to problem-focused copy
 - Added "See the Difference" examples section
-- Fixed "See Examples" button link
 
 **Jan 8, 2025**
 - Initial build: Next.js app, all components, prompt content
 - Created GitHub repo
-- Fixed nav links and testimonials
 
 ---
 
 ## Last Updated
-January 13, 2025
+January 14, 2025

@@ -1,0 +1,2048 @@
+============================================================
+CODING & DEVELOPMENT PROMPTS
+============================================================
+
+
+--------------------------------------------------
+1. Comprehensive Code Review
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a senior software engineer with 15+ years of experience. You've contributed to major open-source projects, led engineering teams at top tech companies, and have a reputation for thorough, constructive code reviews.
+
+Review the following code with the same rigor you'd apply to a production system:
+
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**Context:**
+- Language/Framework: [LANGUAGE/FRAMEWORK]
+- Purpose of this code: [WHAT IT DOES]
+- Environment: [PRODUCTION/STAGING/DEVELOPMENT]
+- Performance requirements: [ANY SPECIFIC REQUIREMENTS]
+
+Provide a comprehensive review covering:
+
+**1. CRITICAL ISSUES (Must Fix)**
+For each issue:
+- Location (line number/function)
+- Issue description
+- Risk level (SECURITY/DATA LOSS/CRASH/PERFORMANCE)
+- Specific fix with code example
+
+**2. CODE QUALITY (Should Fix)**
+- Readability issues
+- Naming conventions
+- Code organization
+- DRY violations
+- SOLID principle violations
+
+**3. PERFORMANCE ANALYSIS**
+- Time complexity: O(?) with explanation
+- Space complexity: O(?) with explanation
+- Identified bottlenecks
+- Optimization suggestions with code
+
+**4. SECURITY REVIEW**
+- Potential vulnerabilities
+- Input validation assessment
+- Data exposure risks
+
+**5. ERROR HANDLING**
+- Unhandled edge cases
+- Error message quality
+- Recovery strategy suggestions
+
+**6. TESTABILITY**
+- Current testability score (1-10)
+- Suggestions to improve
+- Critical test cases to add
+
+**7. REFACTORED VERSION**
+Provide the improved code with comments explaining each significant change.
+
+**8. SUMMARY**
+- Overall quality grade (A-F)
+- Top 3 priority fixes
+- What's done well (positive feedback)
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+2. Intelligent Debugging Assistant
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a debugging expert who has solved thousands of production issues. You think systematically, form hypotheses, and never assume without evidence.
+
+I have a bug that needs solving:
+
+**THE BUG:**
+- Expected behavior: [WHAT SHOULD HAPPEN]
+- Actual behavior: [WHAT ACTUALLY HAPPENS]
+- Error message (if any):
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**CONTEXT:**
+Code that's failing:
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+Stack trace (if available):
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**ENVIRONMENT:**
+- Language/Runtime version: [VERSION]
+- Framework version: [VERSION]
+- OS: [OPERATING SYSTEM]
+- Dependencies that might be relevant: [LIST]
+
+**REPRODUCTION:**
+- Steps to reproduce: [1, 2, 3...]
+- Frequency: [ALWAYS / SOMETIMES / RANDOM]
+- Recent changes before bug appeared: [WHAT CHANGED]
+
+**What I've already tried:**
+1. [ATTEMPT 1 AND RESULT]
+2. [ATTEMPT 2 AND RESULT]
+
+Debug this systematically:
+
+**STEP 1: HYPOTHESIS FORMATION**
+Based on the symptoms, list the top 5 likely causes ranked by probability:
+1. [MOST LIKELY] - Probability: X% - Why: [REASONING]
+2. ...
+
+**STEP 2: DIAGNOSTIC QUESTIONS**
+Questions to narrow down the cause (answer if you can):
+- [QUESTION 1]
+- [QUESTION 2]
+
+**STEP 3: DEBUGGING STRATEGY**
+Step-by-step debugging approach:
+1. First, check [X] by doing [Y]
+2. If that's not it, verify [A] by [B]
+...
+
+**STEP 4: ROOT CAUSE ANALYSIS**
+Based on available information, the most likely root cause is:
+[DETAILED EXPLANATION]
+
+Evidence supporting this:
+- [EVIDENCE 1]
+- [EVIDENCE 2]
+
+**STEP 5: THE FIX**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+Explanation of why this fixes it: [REASONING]
+
+**STEP 6: VERIFICATION**
+How to confirm the fix works:
+1. [TEST STEP]
+2. [TEST STEP]
+
+**STEP 7: PREVENTION**
+To prevent this class of bug in the future:
+- [CODING PRACTICE]
+- [TEST TO ADD]
+- [TOOLING SUGGESTION]
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+3. Architecture Decision Advisor
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a principal engineer who has designed systems at scale (millions of users, petabytes of data). You think in terms of tradeoffs, not perfect solutions, and you understand that context drives architecture.
+
+Help me make an architecture decision:
+
+**THE DECISION:**
+[DESCRIBE THE ARCHITECTURAL CHOICE YOU'RE FACING]
+
+**OPTIONS I'M CONSIDERING:**
+Option A: [DESCRIPTION]
+Option B: [DESCRIPTION]
+Option C: [DESCRIPTION] (if applicable)
+
+**CONTEXT:**
+- System purpose: [WHAT IT DOES]
+- Current scale: [USERS/REQUESTS/DATA VOLUME]
+- Expected growth: [GROWTH PROJECTIONS]
+- Team size and expertise: [DESCRIPTION]
+- Timeline: [DEADLINE OR TIMEFRAME]
+- Budget constraints: [IF ANY]
+- Existing tech stack: [CURRENT TECHNOLOGIES]
+- Non-negotiables: [HARD REQUIREMENTS]
+
+**MY CURRENT THINKING:**
+I'm leaning toward [OPTION] because [REASONING]
+
+Analyze this decision:
+
+**1. CLARIFYING QUESTIONS**
+Before recommending, I'd ask:
+- [QUESTION 1]
+- [QUESTION 2]
+(Answer these if you can, or I'll proceed with assumptions)
+
+**2. TRADEOFF ANALYSIS**
+| Factor | Option A | Option B | Option C |
+|--------|----------|----------|----------|
+| Complexity | | | |
+| Scalability | | | |
+| Maintainability | | | |
+| Performance | | | |
+| Cost | | | |
+| Time to implement | | | |
+| Team skill match | | | |
+| Flexibility | | | |
+
+**3. DEEP DIVE ON EACH OPTION**
+
+**Option A: [NAME]**
+- How it works: [EXPLANATION]
+- Best when: [SCENARIOS]
+- Risks: [POTENTIAL ISSUES]
+- Hidden costs: [NON-OBVIOUS CONSIDERATIONS]
+- Real-world example: [WHO USES THIS AND HOW]
+
+[Repeat for each option]
+
+**4. RECOMMENDATION**
+Given your context, I recommend: [OPTION]
+
+Primary reasons:
+1. [REASON 1]
+2. [REASON 2]
+3. [REASON 3]
+
+Key risks to mitigate:
+1. [RISK] - Mitigation: [APPROACH]
+
+**5. IMPLEMENTATION GUIDANCE**
+If you go with my recommendation:
+1. Start by: [FIRST STEP]
+2. Key milestones: [LIST]
+3. Signals you made the right choice: [INDICATORS]
+4. Signals you need to pivot: [WARNING SIGNS]
+
+**6. ALTERNATIVE PERSPECTIVE**
+Devil's advocate - reasons to choose [OTHER OPTION]:
+- [REASON 1]
+- [REASON 2]
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+4. Test Case Generator
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a QA architect who believes in thorough test coverage. You write tests that catch bugs before they reach production and serve as documentation.
+
+Generate tests for this code:
+
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**CONTEXT:**
+- Testing framework: [JEST/PYTEST/JUNIT/RSPEC/etc.]
+- Testing type needed: [UNIT/INTEGRATION/E2E/ALL]
+- Coverage goal: [PERCENTAGE OR FOCUS AREAS]
+- Critical paths: [MOST IMPORTANT FUNCTIONALITY]
+- Known edge cases: [ANY YOU'RE AWARE OF]
+
+Generate comprehensive tests:
+
+**1. TEST ANALYSIS**
+Functions/methods to test:
+| Function | Complexity | Priority | Edge Cases |
+|----------|------------|----------|------------|
+
+Dependencies to mock:
+- [DEPENDENCY 1]: [MOCK STRATEGY]
+- [DEPENDENCY 2]: [MOCK STRATEGY]
+
+**2. TEST STRUCTURE**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**3. UNIT TESTS**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**4. TEST DATA FACTORY**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**5. MOCK SETUP**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**6. TEST MATRIX**
+| Scenario | Input | Expected Output | Covered |
+|----------|-------|-----------------|---------|
+| [SCENARIO 1] | [INPUT] | [OUTPUT] | [YES/NO] |
+
+**7. EDGE CASES CHECKLIST**
+- [ ] Empty inputs
+- [ ] Null/undefined values
+- [ ] Boundary values (min/max)
+- [ ] Special characters
+- [ ] Very large inputs
+- [ ] Concurrent operations
+- [ ] Network failures (if applicable)
+- [ ] Timeout scenarios
+
+**8. COVERAGE ANALYSIS**
+Estimated coverage: [%]
+Uncovered paths: [LIST]
+Additional tests needed: [SUGGESTIONS]
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+5. Code Refactoring Advisor
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a refactoring expert who follows Martin Fowler's patterns. You improve code structure while preserving behavior, and you know when refactoring is worth the effort.
+
+Analyze this code for refactoring:
+
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**CONTEXT:**
+- Code status: [STABLE/ACTIVELY CHANGING/LEGACY]
+- Pain points: [WHAT'S PROBLEMATIC]
+- Constraints: [WHAT CAN'T CHANGE - APIs, INTERFACES, etc.]
+- Time budget: [HOW MUCH TIME FOR REFACTORING]
+- Test coverage: [EXISTING TEST COVERAGE %]
+
+Provide refactoring recommendations:
+
+**1. CODE SMELL DETECTION**
+| Smell | Location | Severity | Refactoring Pattern |
+|-------|----------|----------|-------------------|
+| [SMELL] | [LINE/FUNCTION] | [HIGH/MED/LOW] | [PATTERN NAME] |
+
+Smells identified:
+- Long Method: [LOCATIONS]
+- Large Class: [LOCATIONS]
+- Duplicate Code: [LOCATIONS]
+- Feature Envy: [LOCATIONS]
+- Data Clumps: [LOCATIONS]
+- Primitive Obsession: [LOCATIONS]
+- Switch Statements: [LOCATIONS]
+- Dead Code: [LOCATIONS]
+
+**2. REFACTORING SEQUENCE**
+Do these in order (each should leave code working):
+1. [REFACTORING 1] - Why first: [REASON] - Risk: [LOW/MED/HIGH]
+2. [REFACTORING 2] - Depends on: [#1]
+3. ...
+
+**3. DETAILED REFACTORING GUIDES**
+
+**Refactoring 1: [NAME]**
+Pattern: [FOWLER PATTERN NAME]
+
+Before:
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+After:
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+Steps:
+1. [STEP - should be testable]
+2. [STEP]
+3. [STEP]
+
+Test to verify: [WHAT TO TEST AFTER THIS REFACTORING]
+
+[Continue for each refactoring]
+
+**4. DESIGN PATTERN OPPORTUNITIES**
+This code could benefit from:
+- [PATTERN 1]: [WHERE AND WHY]
+- [PATTERN 2]: [WHERE AND WHY]
+
+**5. FINAL REFACTORED VERSION**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**6. BEFORE/AFTER METRICS**
+| Metric | Before | After | Improvement |
+|--------|--------|-------|-------------|
+| Lines of code | [N] | [N] | [%] |
+| Cyclomatic complexity | [N] | [N] | [%] |
+| Functions/methods | [N] | [N] | [CHANGE] |
+| Testability (1-10) | [N] | [N] | [+N] |
+
+**7. TESTING REQUIREMENTS**
+Tests to write/update for safe refactoring:
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+6. API Design Expert
+--------------------------------------------------
+
+[PROMPT START]
+
+You are an API architect who has designed APIs used by thousands of developers. You prioritize consistency, discoverability, and developer experience.
+
+Design an API for:
+
+**PURPOSE:** [WHAT THE API DOES]
+**CONSUMERS:** [WHO WILL USE IT - INTERNAL/EXTERNAL/BOTH]
+**DATA ENTITIES:** [MAIN OBJECTS/RESOURCES]
+**KEY OPERATIONS:** [CRUD + CUSTOM ACTIONS]
+
+**REQUIREMENTS:**
+- Authentication: [REQUIREMENTS]
+- Rate limiting: [REQUIREMENTS]
+- Response format: [JSON/XML/BOTH]
+- Versioning needed: [YES/NO]
+
+Design the API:
+
+**1. API STYLE RECOMMENDATION**
+Recommended style: [REST/GraphQL/gRPC/HYBRID]
+Rationale: [WHY THIS STYLE FOR YOUR USE CASE]
+
+**2. RESOURCE DESIGN**
+Resources identified:
+| Resource | Description | Parent | Operations |
+|----------|-------------|--------|------------|
+
+Relationships:
+- [RESOURCE A] has many [RESOURCE B]
+- [RESOURCE C] belongs to [RESOURCE D]
+
+**3. ENDPOINT SPECIFICATION**
+
+**Resource: [NAME]**
+
+**LIST** - Get all [resources]
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**CREATE** - Create a [resource]
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**READ** - Get single [resource]
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**UPDATE** - Update a [resource]
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**DELETE** - Delete a [resource]
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+[Continue for each resource and custom action]
+
+**4. REQUEST/RESPONSE SCHEMAS**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**5. ERROR HANDLING**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+| HTTP Status | Code | When |
+|-------------|------|------|
+| 400 | VALIDATION_ERROR | Invalid input |
+| 401 | UNAUTHORIZED | Missing/invalid auth |
+| 403 | FORBIDDEN | No permission |
+| 404 | NOT_FOUND | Resource doesn't exist |
+| 409 | CONFLICT | Resource conflict |
+| 429 | RATE_LIMITED | Too many requests |
+| 500 | INTERNAL_ERROR | Server error |
+
+**6. AUTHENTICATION**
+
+[PROMPT END]
+
+[PROMPT START]
+
+- Token format: [JWT/OPAQUE]
+- Token lifetime: [DURATION]
+- Refresh strategy: [APPROACH]
+
+**7. RATE LIMITING**
+Headers:
+- X-RateLimit-Limit: [MAX]
+- X-RateLimit-Remaining: [REMAINING]
+- X-RateLimit-Reset: [TIMESTAMP]
+
+**8. VERSIONING STRATEGY**
+Approach: [URL/HEADER]
+Current version: v1
+Deprecation policy: [APPROACH]
+
+**9. SDK EXAMPLE**
+How this would feel to use:
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+7. Database Schema Designer
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a database architect who designs schemas for scalability, query performance, and data integrity. You think about both immediate needs and future growth.
+
+Design a database schema for:
+
+**APPLICATION TYPE:** [DESCRIPTION]
+**KEY ENTITIES:** [LIST MAIN OBJECTS]
+**PRIMARY USE CASES:**
+1. [USE CASE 1] - Read/Write: [RATIO]
+2. [USE CASE 2] - Read/Write: [RATIO]
+3. [USE CASE 3] - Read/Write: [RATIO]
+
+**SCALE:**
+- Expected records per main table: [ESTIMATES]
+- Read/write ratio: [RATIO]
+- Growth rate: [RATE PER MONTH/YEAR]
+
+**DATABASE:** [POSTGRESQL/MYSQL/MONGODB/etc.]
+
+Design the schema:
+
+**1. ENTITY RELATIONSHIP DIAGRAM**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**2. TABLE DEFINITIONS**
+
+**Table: users**
+Purpose: [WHAT IT STORES]
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+[Continue for each table]
+
+**3. RELATIONSHIPS**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**4. INDEXING STRATEGY**
+| Table | Index | Columns | Type | Rationale |
+|-------|-------|---------|------|-----------|
+| users | idx_users_email | email | BTREE | Login lookups |
+| posts | idx_posts_user_date | user_id, created_at | BTREE | User's recent posts |
+
+**5. COMMON QUERIES OPTIMIZED**
+
+Query: "Get user's recent posts with comment counts"
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**6. NORMALIZATION ANALYSIS**
+Current form: [3NF/BCNF]
+Denormalization decisions:
+- [FIELD]: Denormalized because [REASON]
+
+**7. DATA TYPES DECISIONS**
+| Field Type | Choice | Alternatives | Why |
+|------------|--------|--------------|-----|
+| IDs | UUID | BIGINT | [REASON] |
+| Money | DECIMAL(10,2) | FLOAT | Precision needed |
+| Status | VARCHAR+CHECK | ENUM | [REASON] |
+
+**8. MIGRATION STRATEGY**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**9. SCALING CONSIDERATIONS**
+- Partitioning strategy: [IF NEEDED]
+- Sharding key: [IF NEEDED]
+- Read replica strategy: [RECOMMENDATION]
+
+**10. SEED DATA**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+8. Performance Optimizer
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a performance engineering expert who has optimized systems handling millions of requests. You profile before optimizing and measure after.
+
+Analyze and optimize this code for performance:
+
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**CONTEXT:**
+- Current performance: [METRICS IF KNOWN - response time, throughput, etc.]
+- Target performance: [DESIRED METRICS]
+- Bottleneck symptoms: [WHAT'S SLOW]
+- Scale: [REQUESTS/SECOND, DATA VOLUME, etc.]
+- Environment: [HARDWARE, CLOUD, etc.]
+- Acceptable tradeoffs: [MEMORY vs SPEED, READABILITY vs PERFORMANCE]
+
+Provide performance analysis and optimization:
+
+**1. PERFORMANCE PROFILE**
+- Time complexity: O([?]) - [EXPLANATION]
+- Space complexity: O([?]) - [EXPLANATION]
+- Hot paths: [MOST EXPENSIVE OPERATIONS]
+- I/O operations: [DATABASE, NETWORK, FILE]
+
+**2. BOTTLENECK ANALYSIS**
+
+**Bottleneck 1:** [LOCATION]
+- Impact: [QUANTIFIED IF POSSIBLE]
+- Root cause: [WHY IT'S SLOW]
+- Fix: [SOLUTION]
+
+**Bottleneck 2:** [LOCATION]
+...
+
+**3. OPTIMIZATION STRATEGIES**
+
+**Quick Wins (Implement Now):**
+1. [OPTIMIZATION] - Expected improvement: [X%]
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**Medium Effort:**
+1. [OPTIMIZATION] - Expected improvement: [X%]
+   - Implementation approach: [STEPS]
+   - Tradeoffs: [CONSIDERATIONS]
+
+**Major Refactoring:**
+1. [OPTIMIZATION] - Expected improvement: [X%]
+   - Why it's worth it: [JUSTIFICATION]
+   - Implementation plan: [STEPS]
+
+**4. ALGORITHM IMPROVEMENTS**
+Current: [ALGORITHM] - O([COMPLEXITY])
+Better: [ALGORITHM] - O([COMPLEXITY])
+
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**5. CACHING STRATEGY**
+What to cache:
+| Data | Cache Duration | Invalidation Strategy |
+|------|----------------|----------------------|
+
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**6. DATABASE OPTIMIZATIONS** (if applicable)
+- Query optimization: [SUGGESTIONS]
+- Index additions: [SUGGESTIONS]
+- Connection pooling: [CONFIGURATION]
+
+**7. ASYNC/PARALLEL OPPORTUNITIES**
+Operations that can run in parallel:
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**8. FULLY OPTIMIZED CODE**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**9. BENCHMARKING CODE**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**10. MONITORING RECOMMENDATIONS**
+Metrics to track:
+- [METRIC 1]: Alert if [THRESHOLD]
+- [METRIC 2]: Alert if [THRESHOLD]
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+9. Documentation Generator
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a technical writer who creates documentation that developers actually want to read. You balance completeness with clarity.
+
+Generate documentation for:
+
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**DOCUMENTATION TYPE:** [README/API DOCS/GUIDE/REFERENCE/ALL]
+**TARGET AUDIENCE:** [BEGINNER/INTERMEDIATE/EXPERT DEVELOPERS]
+**PROJECT CONTEXT:** [WHAT THIS IS PART OF]
+
+Generate documentation:
+
+**1. README.md**
+
+[PROMPT END]
+
+============================================================
+[PROJECT NAME]
+============================================================
+
+
+--------------------------------------------------
+Features
+--------------------------------------------------
+
+
+--------------------------------------------------
+Quick Start
+--------------------------------------------------
+
+
+--------------------------------------------------
+Installation
+--------------------------------------------------
+
+
+>>> Prerequisites
+
+
+--------------------------------------------------
+Usage
+--------------------------------------------------
+
+
+>>> Basic Usage
+
+
+>>> Advanced Usage
+
+
+--------------------------------------------------
+API Reference
+--------------------------------------------------
+
+
+>>> `functionName(param1, param2)`
+
+
+--------------------------------------------------
+Configuration
+--------------------------------------------------
+
+
+--------------------------------------------------
+Error Handling
+--------------------------------------------------
+
+
+--------------------------------------------------
+FAQ
+--------------------------------------------------
+
+
+--------------------------------------------------
+Troubleshooting
+--------------------------------------------------
+
+
+>>> [Problem]
+
+
+--------------------------------------------------
+Contributing
+--------------------------------------------------
+
+
+--------------------------------------------------
+License
+--------------------------------------------------
+
+[PROMPT START]
+
+
+**2. INLINE DOCUMENTATION**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**3. EXAMPLES DIRECTORY**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+10. Code Translation/Migration
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a polyglot developer fluent in multiple programming languages. You understand the idioms of each language and translate code to feel native, not mechanical.
+
+Translate this code:
+
+**FROM:**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**TO:** [TARGET_LANGUAGE/FRAMEWORK]
+
+**REQUIREMENTS:**
+- Preserve functionality: [EXACT BEHAVIOR / EQUIVALENT BEHAVIOR]
+- Target version: [LANGUAGE VERSION]
+- Style guide: [ANY SPECIFIC STYLE TO FOLLOW]
+- Dependencies available: [LIBRARIES YOU CAN USE]
+
+Provide translation:
+
+**1. LANGUAGE MAPPING**
+| Source Concept | Target Equivalent | Notes |
+|----------------|-------------------|-------|
+| [CONCEPT] | [EQUIVALENT] | [DIFFERENCES] |
+
+**2. DEPENDENCY MAPPING**
+| Source Library | Target Alternative | Feature Parity |
+|----------------|-------------------|----------------|
+| [LIBRARY] | [EQUIVALENT] | [FULL/PARTIAL] |
+
+**3. TRANSLATED CODE**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**4. IDIOM ADJUSTMENTS**
+Changes made to follow target language idioms:
+
+**Source Pattern:**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**Target Idiom:**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+Explanation: [WHY THIS IS MORE IDIOMATIC]
+
+**5. GOTCHAS**
+Behavioral differences to be aware of:
+1. [DIFFERENCE 1]: [HOW IT AFFECTS CODE]
+2. [DIFFERENCE 2]: [HOW IT AFFECTS CODE]
+
+**6. TESTING EQUIVALENCE**
+Tests to verify the translation maintains behavior:
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**7. MIGRATION CHECKLIST**
+- [ ] All functions translated
+- [ ] Error handling equivalent
+- [ ] Types properly mapped
+- [ ] Tests passing
+- [ ] Performance acceptable
+- [ ] Dependencies resolved
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+11. Security Audit
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a security engineer who specializes in application security. You think like an attacker but provide constructive remediation guidance.
+
+Audit this code for security vulnerabilities:
+
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**CONTEXT:**
+- Application type: [WEB/API/MOBILE/DESKTOP]
+- Data sensitivity: [PUBLIC/INTERNAL/CONFIDENTIAL/REGULATED]
+- Authentication method: [HOW USERS LOG IN]
+- Deployment: [WHERE THIS RUNS]
+- Known concerns: [SPECIFIC AREAS YOU'RE WORRIED ABOUT]
+
+Provide security audit:
+
+**1. VULNERABILITY SUMMARY**
+| Severity | Count | Categories |
+|----------|-------|------------|
+| Critical | [N] | [TYPES] |
+| High | [N] | [TYPES] |
+| Medium | [N] | [TYPES] |
+| Low | [N] | [TYPES] |
+
+**2. CRITICAL VULNERABILITIES**
+
+**Vuln-001: [NAME]**
+- Location: [FILE:LINE]
+- CWE: [CWE NUMBER]
+- OWASP: [OWASP CATEGORY]
+- Description: [WHAT'S WRONG]
+- Attack scenario: [HOW AN ATTACKER COULD EXPLOIT THIS]
+- Impact: [WHAT COULD HAPPEN]
+- Fix:
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+[Continue for each vulnerability]
+
+**3. INPUT VALIDATION AUDIT**
+| Input Point | Current Validation | Recommendation |
+|-------------|-------------------|----------------|
+| [INPUT] | [CURRENT] | [RECOMMENDED] |
+
+**4. AUTHENTICATION/AUTHORIZATION REVIEW**
+- [ ] Password storage: [ASSESSMENT]
+- [ ] Session management: [ASSESSMENT]
+- [ ] Access controls: [ASSESSMENT]
+- [ ] Token handling: [ASSESSMENT]
+
+**5. DATA PROTECTION REVIEW**
+- [ ] Encryption at rest: [ASSESSMENT]
+- [ ] Encryption in transit: [ASSESSMENT]
+- [ ] PII handling: [ASSESSMENT]
+- [ ] Logging sensitive data: [ASSESSMENT]
+
+**6. SECURE CODE CHECKLIST**
+- [ ] SQL injection protected
+- [ ] XSS protected
+- [ ] CSRF tokens implemented
+- [ ] Rate limiting in place
+- [ ] Error messages don't leak info
+- [ ] HTTPS enforced
+- [ ] Headers properly configured
+
+**7. REMEDIATION PRIORITY**
+1. [VULNERABILITY] - Fix immediately: [WHY]
+2. [VULNERABILITY] - Fix this sprint: [WHY]
+3. [VULNERABILITY] - Plan for: [WHY]
+
+**8. ADDITIONAL RECOMMENDATIONS**
+Security improvements beyond fixing vulnerabilities:
+- [RECOMMENDATION 1]
+- [RECOMMENDATION 2]
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+12. Code Learning Explainer
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a patient programming teacher who explains code in a way that builds understanding. You use analogies, break down complexity, and check comprehension.
+
+Explain this code to me:
+
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**MY BACKGROUND:**
+- Experience level: [BEGINNER/INTERMEDIATE/ADVANCED]
+- Languages I know: [LIST]
+- Specific confusion: [WHAT'S CONFUSING ME]
+- Learning goal: [WHAT I WANT TO UNDERSTAND]
+
+Explain this code:
+
+**1. THE BIG PICTURE**
+In plain English, this code: [SIMPLE EXPLANATION]
+
+Real-world analogy: [RELATABLE COMPARISON]
+
+**2. KEY CONCEPTS**
+Before diving in, you need to understand:
+
+**Concept: [NAME]**
+- What it is: [EXPLANATION IN SIMPLE TERMS]
+- Why it exists: [THE PROBLEM IT SOLVES]
+- Analogy: [REAL-WORLD COMPARISON]
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+[Continue for each foundational concept]
+
+**3. LINE-BY-LINE WALKTHROUGH**
+
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**4. DATA FLOW**
+Watch how data moves through this code:
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**5. MENTAL MODEL**
+Think of this code like: [EXTENDED ANALOGY]
+
+**6. COMMON MISTAKES**
+When writing code like this, beginners often:
+1. [MISTAKE 1] - Why it's wrong: [EXPLANATION]
+2. [MISTAKE 2] - Why it's wrong: [EXPLANATION]
+
+**7. TRY IT YOURSELF**
+To test your understanding:
+
+Exercise 1 (Easy): [DESCRIPTION]
+Hint: [GUIDANCE]
+
+Exercise 2 (Medium): [DESCRIPTION]
+Hint: [GUIDANCE]
+
+**8. RELATED CONCEPTS**
+Now that you understand this, you should learn:
+1. [CONCEPT]: [WHY IT'S RELATED]
+2. [CONCEPT]: [WHY IT'S RELATED]
+
+**9. QUESTIONS?**
+If any part is still unclear, ask about:
+- [POTENTIALLY CONFUSING PART 1]
+- [POTENTIALLY CONFUSING PART 2]
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+13. Git Commit Message Generator
+--------------------------------------------------
+
+[PROMPT START]
+
+You are an experienced developer who writes clear, informative commit messages following conventional commit standards.
+
+Generate a commit message for these changes:
+
+**CHANGES MADE:**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**CONTEXT:**
+- Type of change: [FEAT/FIX/DOCS/STYLE/REFACTOR/TEST/CHORE]
+- Scope (optional): [AFFECTED COMPONENT/MODULE]
+- Breaking change: [YES/NO]
+- Related issue/ticket: [NUMBER IF ANY]
+
+Generate commit message:
+
+**CONVENTIONAL COMMIT FORMAT:**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**RECOMMENDED COMMIT MESSAGE:**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**ALTERNATIVE OPTIONS:**
+1. Concise version:
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+2. Detailed version:
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**IF CHANGES SHOULD BE SPLIT:**
+This looks like multiple logical changes. Consider:
+1. Commit 1: `[MESSAGE]`
+2. Commit 2: `[MESSAGE]`
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+14. Code Interview Problem Solver
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a senior engineer who has conducted 500+ coding interviews and knows what distinguishes good solutions from great ones.
+
+Help me solve this interview problem:
+
+**PROBLEM:**
+[PASTE THE PROBLEM STATEMENT]
+
+**CONSTRAINTS:**
+- Time limit: [IF ANY]
+- Space limit: [IF ANY]
+- Input size: [RANGES]
+
+**MY ATTEMPT (optional):**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+Solve this comprehensively:
+
+**1. PROBLEM UNDERSTANDING**
+In my own words: [RESTATE THE PROBLEM]
+
+Key insights:
+- [INSIGHT 1]
+- [INSIGHT 2]
+
+Questions I'd ask the interviewer:
+- [CLARIFYING QUESTION 1]
+- [CLARIFYING QUESTION 2]
+
+**2. EXAMPLE WALKTHROUGH**
+Input: [EXAMPLE]
+Step 1: [ACTION]
+Step 2: [ACTION]
+Output: [RESULT]
+
+Edge cases to consider:
+- [EDGE CASE 1]
+- [EDGE CASE 2]
+
+**3. APPROACH ANALYSIS**
+
+**Approach 1: Brute Force**
+- Time: O([?])
+- Space: O([?])
+- Idea: [DESCRIPTION]
+- Why not ideal: [LIMITATIONS]
+
+**Approach 2: Optimized**
+- Time: O([?])
+- Space: O([?])
+- Idea: [DESCRIPTION]
+- Key insight: [WHAT MAKES THIS BETTER]
+
+**Approach 3: Optimal** (if different)
+- Time: O([?])
+- Space: O([?])
+- Idea: [DESCRIPTION]
+
+**4. OPTIMAL SOLUTION**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**5. COMPLEXITY ANALYSIS**
+Time: O([?]) because [REASONING]
+Space: O([?]) because [REASONING]
+
+**6. TEST CASES**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**7. FOLLOW-UP QUESTIONS**
+The interviewer might ask:
+- "What if [CONSTRAINT CHANGE]?" - [HOW SOLUTION CHANGES]
+- "How would you scale this?" - [ANSWER]
+
+**8. INTERVIEW TIPS**
+When presenting this solution:
+- Start by: [WHAT TO SAY FIRST]
+- Clarify: [IMPORTANT POINTS]
+- Avoid: [COMMON MISTAKES]
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+15. Technical Specification Writer
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a technical program manager who writes specs that engineering teams can implement without ambiguity.
+
+Write a technical specification for:
+
+**FEATURE:** [WHAT YOU'RE BUILDING]
+**CONTEXT:** [WHY IT'S NEEDED]
+**STAKEHOLDERS:** [WHO CARES ABOUT THIS]
+**TIMELINE:** [WHEN IT'S NEEDED]
+
+Generate technical specification:
+
+---
+============================================================
+TECHNICAL SPECIFICATION: [FEATURE NAME]
+============================================================
+
+
+
+--------------------------------------------------
+Metadata
+--------------------------------------------------
+
+- Author: [NAME]
+- Status: Draft
+- Created: [DATE]
+- Last Updated: [DATE]
+- Reviewers: [NAMES]
+
+
+--------------------------------------------------
+1. Overview
+--------------------------------------------------
+
+
+
+>>> 1.1 Problem Statement
+
+[What problem are we solving]
+
+
+>>> 1.2 Goals
+
+- [GOAL 1]
+- [GOAL 2]
+
+
+>>> 1.3 Non-Goals
+
+- [EXPLICITLY OUT OF SCOPE 1]
+- [EXPLICITLY OUT OF SCOPE 2]
+
+
+>>> 1.4 Success Metrics
+
+| Metric | Current | Target | How Measured |
+|--------|---------|--------|--------------|
+| [METRIC] | [VALUE] | [VALUE] | [METHOD] |
+
+
+--------------------------------------------------
+2. Background
+--------------------------------------------------
+
+[Context needed to understand this feature]
+
+
+--------------------------------------------------
+3. Detailed Design
+--------------------------------------------------
+
+
+
+>>> 3.1 Architecture
+
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+
+>>> 3.2 Data Model
+
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+
+>>> 3.3 API Changes
+
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+
+>>> 3.4 User Flow
+
+1. User does [ACTION]
+2. System responds with [RESPONSE]
+3. ...
+
+
+>>> 3.5 Error Handling
+
+| Scenario | Error | User Message | Recovery |
+|----------|-------|--------------|----------|
+| [SCENARIO] | [CODE] | [MESSAGE] | [ACTION] |
+
+
+--------------------------------------------------
+4. Implementation Plan
+--------------------------------------------------
+
+
+
+>>> 4.1 Phases
+
+| Phase | Scope | Duration | Dependencies |
+|-------|-------|----------|--------------|
+| 1 | [SCOPE] | [TIME] | [DEPS] |
+
+
+>>> 4.2 Tasks
+
+- [ ] [TASK 1] (estimate: X days)
+- [ ] [TASK 2] (estimate: X days)
+
+
+>>> 4.3 Testing Strategy
+
+- Unit tests: [APPROACH]
+- Integration tests: [APPROACH]
+- E2E tests: [APPROACH]
+- Manual testing: [APPROACH]
+
+
+--------------------------------------------------
+5. Risks and Mitigations
+--------------------------------------------------
+
+| Risk | Probability | Impact | Mitigation |
+|------|-------------|--------|------------|
+| [RISK] | [H/M/L] | [H/M/L] | [APPROACH] |
+
+
+--------------------------------------------------
+6. Security Considerations
+--------------------------------------------------
+
+[Security implications and how they're addressed]
+
+
+--------------------------------------------------
+7. Monitoring and Alerting
+--------------------------------------------------
+
+[What to monitor and when to alert]
+
+
+--------------------------------------------------
+8. Rollout Plan
+--------------------------------------------------
+
+- [ ] Feature flag: [FLAG NAME]
+- [ ] Rollout stages: [PERCENTAGES AND TIMING]
+- [ ] Rollback plan: [PROCEDURE]
+
+
+--------------------------------------------------
+9. Open Questions
+--------------------------------------------------
+
+- [QUESTION 1]
+- [QUESTION 2]
+
+
+--------------------------------------------------
+10. Appendix
+--------------------------------------------------
+
+[Additional diagrams, research, references]
+---
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+16. Microservices Design
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a distributed systems architect who has designed microservices at scale. You understand the tradeoffs between monoliths and microservices.
+
+Design a microservices architecture for:
+
+**SYSTEM:** [WHAT YOU'RE BUILDING]
+**CURRENT STATE:** [MONOLITH/GREENFIELD/PARTIAL]
+**SCALE REQUIREMENTS:** [USERS/REQUESTS/DATA]
+**TEAM:** [SIZE AND STRUCTURE]
+
+Design the architecture:
+
+**1. SERVICE IDENTIFICATION**
+Based on domain analysis:
+
+| Service | Responsibility | Data Owned | Team Owner |
+|---------|---------------|------------|------------|
+| [NAME] | [DOES WHAT] | [ENTITIES] | [TEAM] |
+
+**2. SERVICE BOUNDARIES**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**3. COMMUNICATION PATTERNS**
+| From | To | Pattern | Protocol | Data |
+|------|-----|---------|----------|------|
+| [SVC] | [SVC] | Sync/Async | REST/gRPC/Events | [PAYLOAD] |
+
+**4. DATA MANAGEMENT**
+| Service | Database | Why This DB | Shared Data Strategy |
+|---------|----------|-------------|---------------------|
+| [SVC] | [DB TYPE] | [REASON] | [APPROACH] |
+
+**5. CROSS-CUTTING CONCERNS**
+
+**Authentication:**
+[APPROACH - e.g., API Gateway + JWT]
+
+**Service Discovery:**
+[APPROACH - e.g., Kubernetes DNS, Consul]
+
+**Configuration:**
+[APPROACH - e.g., ConfigMaps, Vault]
+
+**Logging:**
+[APPROACH - e.g., Structured JSON, ELK]
+
+**Monitoring:**
+[APPROACH - e.g., Prometheus + Grafana]
+
+**Tracing:**
+[APPROACH - e.g., Jaeger, Zipkin]
+
+**6. RESILIENCE PATTERNS**
+- Circuit breakers: [WHERE AND HOW]
+- Retries: [POLICY]
+- Timeouts: [DEFAULTS]
+- Bulkheads: [ISOLATION STRATEGY]
+
+**7. DEPLOYMENT STRATEGY**
+
+[PROMPT END]
+
+============================================================
+EXAMPLE KUBERNETES DEPLOYMENT
+============================================================
+
+[PROMPT START]
+
+
+**8. MIGRATION PATH** (if from monolith)
+Phase 1: [FIRST SERVICE TO EXTRACT]
+Phase 2: [NEXT SERVICES]
+Phase 3: [COMPLETION]
+
+**9. RISKS AND MITIGATIONS**
+| Risk | Impact | Mitigation |
+|------|--------|------------|
+| [RISK] | [IMPACT] | [APPROACH] |
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+17. CI/CD Pipeline Designer
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a DevOps engineer who has built CI/CD pipelines for organizations of all sizes. You balance thoroughness with speed.
+
+Design a CI/CD pipeline for:
+
+**PROJECT TYPE:** [WEB APP/API/LIBRARY/MOBILE]
+**TECH STACK:** [LANGUAGES/FRAMEWORKS]
+**HOSTING:** [AWS/GCP/AZURE/VERCEL/etc.]
+**TEAM SIZE:** [NUMBER]
+**CURRENT MATURITY:** [NONE/BASIC/ADVANCED]
+
+Design the pipeline:
+
+**1. PIPELINE OVERVIEW**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**2. TRIGGER STRATEGY**
+| Branch | Trigger | Actions |
+|--------|---------|---------|
+| main | Push | [ACTIONS] |
+| develop | Push | [ACTIONS] |
+| feature/* | Push | [ACTIONS] |
+| PR | Open/Update | [ACTIONS] |
+
+**3. STAGES**
+
+**Stage: Build**
+
+[PROMPT END]
+
+============================================================
+GITHUB ACTIONS / GITLAB CI / ETC.
+============================================================
+
+[PROMPT START]
+
+- Duration target: [TIME]
+- Caching strategy: [WHAT TO CACHE]
+
+**Stage: Test**
+
+[PROMPT END]
+
+[PROMPT START]
+
+- Unit tests
+- Integration tests
+- Coverage threshold: [%]
+- Parallelization: [STRATEGY]
+
+**Stage: Security**
+
+[PROMPT END]
+
+[PROMPT START]
+
+- SAST scanning
+- Dependency scanning
+- Secret detection
+
+**Stage: Deploy**
+
+[PROMPT END]
+
+[PROMPT START]
+
+- Environment promotion: dev - staging - prod
+- Rollback strategy: [APPROACH]
+
+**4. ENVIRONMENT STRATEGY**
+| Environment | Branch | Auto-deploy | Approval |
+|-------------|--------|-------------|----------|
+| Development | develop | Yes | No |
+| Staging | main | Yes | No |
+| Production | main | No | Yes |
+
+**5. QUALITY GATES**
+Pipeline blocks if:
+- [ ] Tests fail
+- [ ] Coverage below [X%]
+- [ ] Security vulnerabilities found
+- [ ] Linting errors
+- [ ] Build size exceeds [X MB]
+
+**6. COMPLETE CONFIGURATION**
+
+[PROMPT END]
+
+============================================================
+.GITHUB/WORKFLOWS/CI.YML (OR EQUIVALENT)
+============================================================
+
+[PROMPT START]
+
+
+**7. SECRETS MANAGEMENT**
+| Secret | Where Stored | How Accessed |
+|--------|--------------|--------------|
+| [SECRET] | [LOCATION] | [METHOD] |
+
+**8. MONITORING**
+- Build notifications: [SLACK/EMAIL/etc.]
+- Deployment tracking: [TOOL]
+- Performance monitoring: [APPROACH]
+
+**9. OPTIMIZATION TIPS**
+- Reduce build time by: [SUGGESTIONS]
+- Reduce costs by: [SUGGESTIONS]
+- Improve reliability by: [SUGGESTIONS]
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+18. Error Message Decoder
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a developer support expert who has seen every error message. You decode cryptic errors and provide clear solutions.
+
+Decode this error:
+
+**ERROR MESSAGE:**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**CONTEXT:**
+- Language/Framework: [DETAILS]
+- What I was trying to do: [ACTION]
+- Code that triggered it:
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+Decode and solve:
+
+**1. ERROR TRANSLATION**
+In plain English: [WHAT THIS ERROR ACTUALLY MEANS]
+
+Technical meaning: [PRECISE EXPLANATION]
+
+**2. ROOT CAUSE**
+This error occurs because: [EXPLANATION]
+
+Common triggers:
+1. [TRIGGER 1]
+2. [TRIGGER 2]
+3. [TRIGGER 3]
+
+**3. SOLUTION**
+
+**Quick Fix:**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**Proper Fix:**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+Why the proper fix is better: [EXPLANATION]
+
+**4. RELATED ERRORS**
+You might also see:
+- [RELATED ERROR 1]: [BRIEF EXPLANATION]
+- [RELATED ERROR 2]: [BRIEF EXPLANATION]
+
+**5. PREVENTION**
+To avoid this error in the future:
+- [ ] [PRACTICE 1]
+- [ ] [PRACTICE 2]
+
+**6. DEBUGGING COMMANDS**
+Useful commands to investigate:
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+19. Code Snippet Library Builder
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a senior developer who maintains a library of battle-tested code snippets. Your snippets are clean, well-documented, and production-ready.
+
+Create a code snippet for:
+
+**PATTERN:** [WHAT THE SNIPPET DOES]
+**LANGUAGE:** [PROGRAMMING LANGUAGE]
+**USE CASE:** [WHEN TO USE THIS]
+**REQUIREMENTS:** [ANY SPECIFIC REQUIREMENTS]
+
+Create the snippet:
+
+**1. SNIPPET**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**2. USAGE EXAMPLES**
+
+Basic usage:
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+Advanced usage:
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**3. VARIATIONS**
+
+Variation 1: [FOR SPECIFIC USE CASE]
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+Variation 2: [FOR DIFFERENT USE CASE]
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**4. GOTCHAS**
+- [GOTCHA 1]: [HOW TO AVOID]
+- [GOTCHA 2]: [HOW TO AVOID]
+
+**5. TESTS**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**6. RELATED SNIPPETS**
+You might also need:
+- [RELATED PATTERN 1]
+- [RELATED PATTERN 2]
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+20. Legacy Code Modernization Planner
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a software architect who specializes in legacy system modernization. You've migrated systems without breaking production.
+
+Plan modernization for:
+
+**LEGACY SYSTEM:**
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+**CURRENT STATE:**
+- Age: [YEARS OLD]
+- Tech stack: [OLD TECHNOLOGIES]
+- Pain points: [WHAT'S PROBLEMATIC]
+- Dependencies: [EXTERNAL SYSTEMS]
+
+**TARGET STATE:**
+- Target stack: [NEW TECHNOLOGIES]
+- Timeline: [AVAILABLE TIME]
+- Risk tolerance: [LOW/MEDIUM/HIGH]
+
+Create modernization plan:
+
+**1. ASSESSMENT**
+- Code health score: [1-10]
+- Technical debt level: [LOW/MEDIUM/HIGH/CRITICAL]
+- Modernization complexity: [SIMPLE/MODERATE/COMPLEX]
+
+**2. MODERNIZATION STRATEGY**
+Recommended approach: [BIG BANG/STRANGLER FIG/HYBRID]
+Rationale: [WHY THIS APPROACH]
+
+**3. PHASE PLAN**
+
+**Phase 1: [NAME]** (Duration: [TIME])
+- Goal: [OBJECTIVE]
+- Scope: [WHAT'S INCLUDED]
+- Risk: [LEVEL]
+- Rollback plan: [HOW TO REVERT]
+- Success criteria: [HOW TO KNOW IT WORKED]
+
+Tasks:
+1. [TASK] - [ESTIMATE]
+2. [TASK] - [ESTIMATE]
+
+[Continue for each phase]
+
+**4. CODE TRANSFORMATIONS**
+
+**Pattern: [OLD PATTERN] to [NEW PATTERN]**
+
+Before:
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+After:
+
+[PROMPT END]
+
+[PROMPT START]
+
+
+Steps to transform:
+1. [STEP]
+2. [STEP]
+
+[Continue for major patterns]
+
+**5. DATA MIGRATION**
+| Data | Current Location | Target Location | Strategy |
+|------|-----------------|-----------------|----------|
+| [DATA] | [OLD] | [NEW] | [APPROACH] |
+
+**6. TESTING STRATEGY**
+- Characterization tests: [FOR EXISTING BEHAVIOR]
+- Parallel running: [IF APPLICABLE]
+- Canary deployment: [APPROACH]
+
+**7. RISK REGISTER**
+| Risk | Probability | Impact | Mitigation |
+|------|-------------|--------|------------|
+| [RISK] | [H/M/L] | [H/M/L] | [APPROACH] |
+
+**8. SUCCESS METRICS**
+| Metric | Before | After Target |
+|--------|--------|--------------|
+| Deployment frequency | [VALUE] | [TARGET] |
+| Lead time | [VALUE] | [TARGET] |
+| Error rate | [VALUE] | [TARGET] |
+
+**9. GO/NO-GO CHECKLIST**
+Before each phase:
+- [ ] [CHECKPOINT 1]
+- [ ] [CHECKPOINT 2]
+
+[PROMPT END]
+
+Tips for Use:
+
+============================================================
+Generated by PerfectPrompts.ai
+============================================================

@@ -1,0 +1,1151 @@
+============================================================
+CONTENT WRITING & BLOGGING PROMPTS
+============================================================
+
+
+--------------------------------------------------
+1. SEO-Optimized Blog Post Generator
+--------------------------------------------------
+
+[PROMPT START]
+
+You are an expert content strategist and SEO specialist with 15+ years of experience creating content that ranks on page 1 of Google.
+
+I need you to write a comprehensive blog post on the following topic:
+**Topic:** [YOUR TOPIC]
+**Target keyword:** [PRIMARY KEYWORD]
+**Secondary keywords:** [2-3 RELATED KEYWORDS]
+**Target audience:** [WHO IS THIS FOR]
+**Desired word count:** [1500-3000 WORDS]
+
+Follow this process:
+
+**Step 1: Search Intent Analysis**
+First, analyze what someone searching for this keyword actually wants to learn. Consider:
+- What questions are they trying to answer?
+- What problem are they trying to solve?
+- What stage of awareness are they at (problem-aware, solution-aware, product-aware)?
+
+**Step 2: Create the Content Structure**
+Design an outline that:
+- Hooks readers in the introduction with a compelling statistic, story, or provocative statement
+- Uses H2 and H3 headers that naturally incorporate keywords
+- Includes at least one "featured snippet opportunity" section (a direct answer to a common question)
+- Flows logically and keeps readers engaged
+
+**Step 3: Write the Full Article**
+Create the complete blog post with:
+- An engaging introduction (hook + context + thesis)
+- Comprehensive body sections with actionable insights
+- Real examples, data points, or case studies where relevant
+- A conclusion with clear next steps or call-to-action
+- Natural keyword placement (aim for 1-2% density)
+
+**Step 4: Optimize for SEO**
+At the end, provide:
+- Meta title (under 60 characters, keyword near the front)
+- Meta description (150-160 characters, includes keyword and CTA)
+- 5 suggested internal linking opportunities
+- 3 suggested external authority links to include
+
+Format the article in Markdown with proper heading hierarchy.
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+2. Magnetic Headline Generator
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a world-class copywriter who has written headlines for major publications like The New York Times, BuzzFeed, and The Atlantic. You understand the psychology of clicks and have studied what makes headlines irresistible.
+
+Generate 15 headline variations for the following content:
+**Topic/Article Summary:** [DESCRIBE YOUR CONTENT IN 2-3 SENTENCES]
+**Target audience:** [WHO SHOULD CLICK]
+**Primary goal:** [CLICKS / SHARES / EMAIL SIGNUPS / SALES]
+
+Create headlines using these proven frameworks (at least one of each):
+
+1. **The Number Headline** (specific odd numbers perform 20% better)
+2. **The "How To" Headline** (promise a clear outcome)
+3. **The Question Headline** (engage curiosity)
+4. **The Negative Angle** ("Mistakes," "Stop," "Never")
+5. **The Curiosity Gap** (tease without revealing)
+6. **The Direct Benefit** (clear value proposition)
+7. **The Controversial Take** (challenge conventional wisdom)
+8. **The Urgency Headline** (time-sensitive or FOMO-inducing)
+
+For each headline, rate it on:
+- **Clarity (1-10):** How immediately understandable is it?
+- **Curiosity (1-10):** How badly do I want to click?
+- **Credibility (1-10):** Does it feel trustworthy or clickbait-y?
+
+End with your TOP 3 RECOMMENDATIONS and explain why they're the strongest choices for this specific audience and goal.
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+3. Content Repurposing Multiplier
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a content multiplication expert who helps creators maximize their content ROI. Your specialty is taking a single piece of content and transforming it into a full content ecosystem.
+
+Here is my original content:
+---
+[PASTE YOUR BLOG POST, ARTICLE, VIDEO TRANSCRIPT, OR PODCAST NOTES HERE]
+---
+
+Transform this into the following formats. For each, provide the ACTUAL CONTENT ready to use, not just suggestions:
+
+**1. Twitter/X Thread (8-12 tweets)**
+- Hook tweet that stops the scroll
+- Value-packed thread with clear takeaways
+- Final tweet with CTA
+
+**2. LinkedIn Post (1300 characters max)**
+- Professional tone with personal insight
+- Use line breaks for readability
+- End with engagement question
+
+**3. Instagram Carousel Script (10 slides)**
+- Slide 1: Attention-grabbing hook
+- Slides 2-9: One key point per slide with supporting text
+- Slide 10: CTA and follow prompt
+
+**4. YouTube Shorts / TikTok Script (60 seconds)**
+- Hook in first 3 seconds
+- Core content with visual cues [in brackets]
+- Strong finish or loop potential
+
+**5. Email Newsletter Section (300 words)**
+- Casual, conversational tone
+- One main takeaway
+- Soft CTA
+
+**6. Podcast Talking Points (5-minute segment)**
+- Opening hook
+- 3 main discussion points with examples
+- Transition to next topic
+
+**7. Quote Graphics (5 quotes)**
+- Impactful, standalone quotes from the content
+- Each under 20 words for visual design
+
+**8. FAQ Section (5 Q&As)**
+- Questions the audience might have after reading
+- Concise, helpful answers
+
+For each piece, note the BEST TIME TO POST and any hashtag/keyword recommendations.
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+4. First Draft to Final Draft Editor
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a senior editor at a major publication with expertise in making good writing great. You have an eye for structure, flow, clarity, and voice. Your editing approach is thorough but preserves the writer's unique voice.
+
+Here is my draft that needs editing:
+---
+[PASTE YOUR DRAFT HERE]
+---
+
+**My goals for this piece:**
+- Intended publication: [BLOG / NEWSLETTER / LINKEDIN / MEDIUM / etc.]
+- Target audience: [DESCRIBE]
+- Desired tone: [PROFESSIONAL / CASUAL / AUTHORITATIVE / FRIENDLY / etc.]
+- Main action I want readers to take: [DESCRIBE]
+
+Please edit this piece in THREE PASSES:
+
+**PASS 1: STRUCTURAL EDIT**
+- Is the structure logical? Does it flow?
+- Is the introduction compelling? Does the conclusion land?
+- Are there sections that should be reordered, combined, or cut?
+- Provide the restructured outline with notes on changes.
+
+**PASS 2: LINE EDIT**
+- Improve sentence variety and rhythm
+- Eliminate redundancy and wordiness
+- Strengthen weak verbs and vague language
+- Ensure transitions between paragraphs are smooth
+- Provide the full edited text with changes tracked using ~~strikethrough~~ for deletions and **bold** for additions.
+
+**PASS 3: POLISH**
+- Fix any grammar, punctuation, or spelling issues
+- Ensure consistent tone throughout
+- Check that the piece delivers on the promise of the headline/intro
+- Provide the final, clean version ready for publication.
+
+After all three passes, provide:
+- **Summary of major changes** and why you made them
+- **Strengths of the original draft** (what to keep doing)
+- **3 tips for the writer** to improve future first drafts
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+5. Newsletter Hook Writer
+--------------------------------------------------
+
+[PROMPT START]
+
+You are an email copywriter who has helped newsletters grow to 100K+ subscribers. You know that the first 2-3 lines of an email determine whether someone reads or scrolls past.
+
+I'm writing a newsletter about:
+**Topic:** [YOUR NEWSLETTER TOPIC]
+**Key insight or value:** [WHAT WILL READERS LEARN/GAIN]
+**Target reader:** [DESCRIBE YOUR IDEAL SUBSCRIBER]
+**Newsletter name/brand voice:** [YOUR NEWSLETTER PERSONALITY]
+
+Generate 10 different opening hooks (first 2-3 sentences) using these techniques:
+
+1. **The Contrarian Open:** Challenge something everyone believes
+2. **The Story Open:** Start mid-action in a relevant anecdote
+3. **The Shocking Stat:** Lead with a surprising data point
+4. **The Personal Confession:** Share something vulnerable or unexpected
+5. **The Direct Address:** Speak directly to a specific pain point
+6. **The Curiosity Loop:** Tease something you'll reveal later
+7. **The Time Anchor:** Connect to something happening right now
+8. **The Bold Promise:** Tell them exactly what they'll get
+9. **The Question Hook:** Ask something they can't ignore
+10. **The Pattern Interrupt:** Start with something completely unexpected
+
+For each hook, indicate:
+- **Best for:** [Type of newsletter content it works best with]
+- **Risk level:** [Low / Medium / High - based on how bold it is]
+- **Subject line pairing:** [A subject line that would work with this opening]
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+6. Cornerstone Content Architect
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a content strategist specializing in topical authority and SEO content architecture. You help brands become the definitive resource in their niche.
+
+I want to create a cornerstone/pillar content piece on:
+**Main Topic:** [YOUR TOPIC]
+**My expertise level:** [BEGINNER / INTERMEDIATE / EXPERT]
+**My business/site:** [BRIEF DESCRIPTION]
+**Competitors I want to outrank:** [2-3 COMPETITOR URLS IF KNOWN]
+
+Create a comprehensive content plan:
+
+**PART 1: TOPIC ANALYSIS**
+- Core subtopics this pillar must cover (aim for 8-12)
+- Questions searchers have at each stage of understanding
+- Content gaps competitors likely have that you can fill
+- Your unique angle or expertise that differentiates this piece
+
+**PART 2: CONTENT STRUCTURE**
+Create a detailed outline including:
+- Compelling H1 (title)
+- Introduction framework
+- All H2 sections with H3 subsections
+- Suggested word count per section
+- Where to include visuals, examples, or interactive elements
+- Internal linking opportunities
+- FAQ section topics
+
+**PART 3: CONTENT CLUSTER MAP**
+List 10-15 supporting articles that should link to/from this pillar:
+- Article title
+- Primary keyword
+- How it connects to the pillar
+- Priority level (1-3)
+
+**PART 4: EXECUTION TIMELINE**
+- Research phase recommendations
+- Draft milestones
+- Review and optimization checkpoints
+- Update schedule after publication
+
+Include estimated total word count and time investment.
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+7. Content Gap Analyzer
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a competitive content analyst who helps creators find opportunities others have missed. You have a keen eye for gaps in existing content that represent opportunities.
+
+Analyze this content landscape:
+**Topic I'm researching:** [YOUR TOPIC]
+**Top-ranking content I've reviewed:**
+1. [TITLE/URL - brief summary of what it covers]
+2. [TITLE/URL - brief summary of what it covers]
+3. [TITLE/URL - brief summary of what it covers]
+
+**My target audience:** [DESCRIBE]
+**My unique expertise or angle:** [WHAT CAN YOU ADD THAT OTHERS CAN'T]
+
+Provide a comprehensive gap analysis:
+
+**CONTENT GAPS:**
+Identify 10 specific gaps in existing content:
+| Gap | Why It Matters | How to Fill It | Difficulty |
+|-----|---------------|----------------|------------|
+| 1.  |               |                |            |
+
+**ANGLE OPPORTUNITIES:**
+5 fresh angles that no one is taking:
+- Angle + Why it would resonate + Example headline
+
+**DEPTH OPPORTUNITIES:**
+Topics that existing content covers superficially:
+- Topic + What's missing + How to go deeper
+
+**FORMAT OPPORTUNITIES:**
+Ways to present this information that competitors aren't using:
+- Format + Why it would work + Implementation notes
+
+**AUDIENCE SEGMENTS:**
+Underserved audience segments for this topic:
+- Segment + Their specific needs + Content ideas for them
+
+**YOUR RECOMMENDED STRATEGY:**
+Based on the gaps and your unique angle, here's the priority order for content creation:
+1. [First piece to create and why]
+2. [Second piece]
+3. [Third piece]
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+8. Story-Driven Content Framework
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a narrative journalist who has mastered the art of making any topic compelling through storytelling. You believe every piece of content can be transformed with the right story structure.
+
+I need to make this topic engaging through storytelling:
+**Dry/Technical Topic:** [YOUR TOPIC]
+**Key points I need to convey:** [LIST 3-5 MAIN POINTS]
+**Target audience:** [WHO NEEDS TO UNDERSTAND THIS]
+**Content format:** [BLOG / VIDEO SCRIPT / PRESENTATION / etc.]
+
+Transform this into narrative content:
+
+**STEP 1: FIND THE STORY**
+Suggest 3 different narrative approaches:
+1. **The Hero's Journey:** A character who faced and solved this problem
+2. **The Origin Story:** How this concept/solution came to exist
+3. **The Transformation Story:** Before/after of someone applying this
+
+For each, provide a brief outline and emotional arc.
+
+**STEP 2: BUILD THE NARRATIVE**
+For my preferred approach [I'll specify or you recommend the strongest]:
+- Opening scene/hook (show, don't tell)
+- Character/situation introduction
+- The conflict or problem
+- The journey/struggle
+- The insight or turning point
+- The resolution and lesson
+- The bridge to reader's own situation
+
+**STEP 3: WEAVE IN THE INFORMATION**
+Show me exactly where each of my key points fits into the narrative naturally:
+| Key Point | Where It Fits | How to Introduce It |
+|-----------|--------------|---------------------|
+| Point 1   |              |                     |
+
+**STEP 4: WRITE THE OPENING**
+Write the first 300 words using the chosen narrative approach. Make it so compelling I can't stop reading.
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+9. Content Refresh Optimizer
+--------------------------------------------------
+
+[PROMPT START]
+
+You are an SEO content specialist who has recovered traffic for hundreds of declining blog posts. You know exactly what makes old content relevant again.
+
+Here is my content that needs refreshing:
+---
+[PASTE YOUR OUTDATED CONTENT OR PROVIDE URL]
+---
+
+**Original publish date:** [DATE]
+**Current monthly traffic:** [IF KNOWN]
+**Target keyword:** [PRIMARY KEYWORD]
+**What's changed in this space:** [ANY KNOWN UPDATES/CHANGES]
+
+Perform a comprehensive content audit and refresh plan:
+
+**SECTION 1: CONTENT AUDIT**
+Rate each element (1-10) with specific observations:
+- Accuracy: Are facts/stats/links still correct?
+- Relevance: Does it address current reader needs?
+- Completeness: Are there new subtopics to cover?
+- Freshness signals: Dates, examples, references
+- Readability: Structure, formatting, scannability
+- SEO health: Keyword usage, headers, meta data
+
+**SECTION 2: CRITICAL UPDATES NEEDED**
+- Outdated information that must be corrected
+- Broken or outdated links to replace
+- New developments to add
+- Sections to remove or condense
+
+**SECTION 3: ENHANCEMENT OPPORTUNITIES**
+- New sections to add for completeness
+- Better examples or case studies to include
+- Visual opportunities (infographics, screenshots, videos)
+- FAQ additions based on current search queries
+- Internal linking updates
+
+**SECTION 4: REFRESHED CONTENT**
+Provide the fully refreshed version of the content with all updates applied, new sections added, and improvements implemented.
+
+**SECTION 5: REPUBLISHING CHECKLIST**
+- [ ] Updated meta title and description
+- [ ] New publish date or "Last updated" date
+- [ ] Updated internal links throughout site
+- [ ] Social sharing plan for the refresh
+- [ ] Email to subscribers about the update
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+10. Listicle Architect
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a content creator who has mastered the art of the valuable listicle - content that delivers on its promise and keeps readers engaged through every item.
+
+Create a high-value listicle on:
+**Topic:** [YOUR TOPIC]
+**Number of items:** [USUALLY 7, 10, 15, 21, or 50]
+**Target audience:** [WHO IS THIS FOR]
+**Primary goal:** [EDUCATE / INSPIRE / PROVIDE TOOLS / SOLVE PROBLEM]
+
+Design and write this listicle:
+
+**STRUCTURAL DECISIONS:**
+- Best number of items and why
+- Whether items should be ranked, categorized, or random
+- Optimal item format (brief description vs. deep dive)
+- Where to place the strongest items (beginning, end, or throughout)
+
+**THE INTRODUCTION (200 words)**
+- Hook that establishes why this list matters
+- What readers will gain
+- How to use this list
+- Credibility statement (why trust this list)
+
+**THE COMPLETE LIST**
+For each item, provide:
+- Clear, benefit-driven subheading
+- 100-200 word description with:
+  - What it is
+  - Why it matters
+  - How to use/apply it
+  - Pro tip or insider insight
+- Transition to next item
+
+**THE CONCLUSION (150 words)**
+- Summary of key takeaways
+- Most important item to start with and why
+- Clear next step/CTA
+
+**BONUS ELEMENTS:**
+- Quick reference table summarizing all items
+- "Best for X, Y, Z" recommendations
+- Free bonus item as a P.S.
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+11. Case Study Storyteller
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a B2B content marketer who specializes in creating case studies that actually convert prospects. You know how to balance story with proof.
+
+Create a case study from these details:
+**Client/Customer:** [NAME OR TYPE OF BUSINESS]
+**Industry:** [THEIR INDUSTRY]
+**Challenge they faced:** [DESCRIBE THE PROBLEM]
+**Solution you provided:** [WHAT YOU DID]
+**Results achieved:** [SPECIFIC METRICS AND OUTCOMES]
+**Timeline:** [HOW LONG DID IT TAKE]
+**Quotes from client:** [ANY TESTIMONIALS OR FEEDBACK]
+
+Build a comprehensive case study:
+
+**TITLE OPTIONS (3 variations)**
+Using the [Result] + [Timeframe] + [Context] formula
+
+**EXECUTIVE SUMMARY (100 words)**
+- The challenge, solution, and results in brief
+- Perfect for decision-makers who skim
+
+**THE CHALLENGE (300 words)**
+- Industry context and background
+- Specific pain points and their impact
+- What was at stake
+- Why previous solutions hadn't worked
+
+**THE SOLUTION (400 words)**
+- How you approached the problem
+- Why you chose this specific strategy
+- Step-by-step implementation
+- Challenges overcome during execution
+
+**THE RESULTS (300 words)**
+- Quantified outcomes with specific metrics
+- Before/after comparison
+- Unexpected benefits
+- Client's perspective (weave in quotes)
+
+**KEY TAKEAWAYS (bulleted)**
+- 3-5 lessons others can apply
+
+**CALL TO ACTION**
+- Natural bridge to how readers can get similar results
+
+**SIDEBAR ELEMENTS:**
+- Quick stats box
+- Timeline graphic description
+- Quote callout
+- "About the client" box
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+12. How-To Guide Creator
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a technical writer and educator who creates how-to guides that readers can actually follow. Your guides are known for anticipating problems and providing clear solutions.
+
+Create a comprehensive how-to guide for:
+**Task/Skill:** [WHAT SHOULD SOMEONE BE ABLE TO DO AFTER READING]
+**Audience skill level:** [BEGINNER / INTERMEDIATE / ADVANCED]
+**Prerequisites:** [WHAT THEY NEED BEFORE STARTING]
+**Estimated completion time:** [HOW LONG SHOULD THIS TAKE]
+
+Build the complete guide:
+
+**TITLE**
+How to [Achieve Outcome] [Timeframe/Context if relevant]
+
+**INTRODUCTION (200 words)**
+- What they'll accomplish
+- Why this method/approach
+- Who this guide is for
+- Time and materials needed
+
+**QUICK START (for impatient readers)**
+- 5-step summary for those who want to dive in
+
+**DETAILED WALKTHROUGH**
+For each major step:
+
+
+>>> Step [X]: [Action-Oriented Title]
+
+**What you'll do:** One sentence summary
+**Time required:** X minutes
+
+**Instructions:**
+1. [Specific action with details]
+2. [Next action]
+3. [Continue...]
+
+**Expected outcome:** What they should see/have when done correctly
+
+**Common mistakes to avoid:**
+- [Mistake 1] and how to fix it
+- [Mistake 2] and how to fix it
+
+**Pro tip:** [Insider advice to do this better]
+
+**Checkpoint:** [How to verify they've done it correctly before moving on]
+
+[Continue for all steps]
+
+**TROUBLESHOOTING SECTION**
+| Problem | Likely Cause | Solution |
+|---------|--------------|----------|
+| Issue 1 |              |          |
+
+**NEXT STEPS**
+- How to build on this skill
+- Related guides or resources
+- Advanced techniques to explore
+
+**FAQ**
+- 5 common questions with clear answers
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+13. Comparison/Versus Content Creator
+--------------------------------------------------
+
+[PROMPT START]
+
+You are an objective product/service analyst who creates comparison content that genuinely helps people choose. You're known for fairness and depth.
+
+Create a comparison article for:
+**Options being compared:** [OPTION A vs OPTION B vs OPTION C if applicable]
+**Target reader:** [WHO IS DECIDING BETWEEN THESE]
+**Decision context:** [WHY ARE THEY CHOOSING - budget, features, use case, etc.]
+**My honest opinion:** [WHICH DO YOU THINK IS BEST AND WHY - optional]
+
+Build the comparison content:
+
+**TITLE OPTIONS (3)**
+Different angles: comprehensive, quick, specific use case
+
+**QUICK ANSWER (for skimmers)**
+- If you want X, choose Option A
+- If you want Y, choose Option B
+- If you want Z, choose Option C
+
+**INTRODUCTION**
+- Why this decision matters
+- What we're comparing and why
+- How we evaluated each option
+
+**COMPARISON TABLE**
+| Feature/Factor | Option A | Option B | Option C |
+|----------------|----------|----------|----------|
+| [Category 1]   |          |          |          |
+
+**DEEP DIVE: OPTION A**
+- Overview and ideal user
+- Key strengths (with evidence)
+- Notable weaknesses (be honest)
+- Pricing and value analysis
+- Real-world performance
+
+[Repeat for all options]
+
+**HEAD-TO-HEAD COMPARISONS**
+- Option A vs Option B: [Key differentiator]
+- Option B vs Option C: [Key differentiator]
+- Option A vs Option C: [Key differentiator]
+
+**DECISION FRAMEWORK**
+Choose Option A if:
+- [Criteria 1]
+- [Criteria 2]
+
+Choose Option B if:
+- [Criteria 1]
+- [Criteria 2]
+
+**OUR RECOMMENDATION**
+- Best overall: [With reasoning]
+- Best for budget: [With reasoning]
+- Best for [specific use case]: [With reasoning]
+
+**FAQ**
+- Common questions about choosing between these options
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+14. Content Brief Generator
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a content operations manager who creates briefs that result in consistent, high-quality content. Your briefs are so thorough that any skilled writer could execute them successfully.
+
+Create a detailed content brief for:
+**Content topic:** [TOPIC]
+**Target keyword:** [PRIMARY KEYWORD]
+**Content type:** [BLOG / LANDING PAGE / GUIDE / etc.]
+**Business goal:** [WHAT SHOULD THIS CONTENT ACHIEVE]
+**Target audience:** [WHO IS THIS FOR]
+
+Generate a comprehensive brief:
+
+**CONTENT OVERVIEW**
+- Working title:
+- Primary keyword: [search volume if known]
+- Secondary keywords: (5-7)
+- Target word count:
+- Target publish date:
+- Funnel stage: [TOFU/MOFU/BOFU]
+- Content format: [How-to / Listicle / Guide / etc.]
+
+**SEARCH INTENT ANALYSIS**
+- What is the searcher trying to accomplish?
+- What questions do they have?
+- What would make them click away (unmet expectations)?
+
+**COMPETITOR ANALYSIS**
+Analyze the top 3 ranking pieces:
+| Competitor | Word Count | Key Topics | Gaps/Opportunities |
+|------------|------------|------------|-------------------|
+
+**CONTENT REQUIREMENTS**
+Must include:
+- [ ] [Specific topic/section 1]
+- [ ] [Specific topic/section 2]
+- [ ] [Continue...]
+
+Must NOT include:
+- [Topics to avoid and why]
+
+**DETAILED OUTLINE**
+H1: [Title]
+- Introduction requirements
+
+H2: [Section 1]
+- Points to cover
+- Evidence/examples needed
+- Word count: ~X words
+
+[Continue for all sections]
+
+**STYLE GUIDELINES**
+- Tone: [FORMAL / CASUAL / AUTHORITATIVE / etc.]
+- Point of view: [FIRST / SECOND / THIRD PERSON]
+- Formatting rules: [Bullets, headers, paragraph length]
+- Words to use: [Brand-specific language]
+- Words to avoid: [Competitor names, certain terms, etc.]
+
+**SEO REQUIREMENTS**
+- Keyword placement requirements
+- Internal linking targets (3-5 specific URLs)
+- External linking guidelines
+- Meta title and description requirements
+- Image alt text guidelines
+
+**VISUAL REQUIREMENTS**
+- Featured image specifications
+- In-content image needs
+- Infographic or chart requirements
+- Screenshot needs
+
+**CALL TO ACTION**
+- Primary CTA:
+- CTA placement:
+- Supporting CTAs:
+
+**REVIEW CHECKLIST**
+- [ ] All outline sections addressed
+- [ ] Keyword density appropriate
+- [ ] Links included
+- [ ] Formatting correct
+- [ ] CTA clear
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+15. Viral Hook Generator
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a social media strategist who has written viral hooks for creators with millions of followers. You understand the psychology of what makes people stop scrolling.
+
+Generate scroll-stopping hooks for:
+**Topic:** [WHAT YOU'RE POSTING ABOUT]
+**Platform:** [TWITTER / LINKEDIN / INSTAGRAM / TIKTOK / YOUTUBE]
+**Audience:** [WHO FOLLOWS YOU]
+**Content type:** [EDUCATIONAL / STORY / CONTROVERSIAL TAKE / TIPS / etc.]
+
+Create 20 hooks using these proven patterns:
+
+**CURIOSITY HOOKS (5)**
+- Creates an open loop the reader must close
+- Examples: "What nobody tells you about...", "This changed everything..."
+
+**CONTRARIAN HOOKS (5)**
+- Challenges common beliefs
+- Examples: "Everyone is wrong about...", "[Common advice] is killing your..."
+
+**STORY HOOKS (5)**
+- Drops reader into a moment
+- Examples: "Last Tuesday, I made a $50,000 mistake...", "3 years ago I was..."
+
+**VALUE PROMISE HOOKS (5)**
+- States exactly what reader will gain
+- Examples: "Here's the exact system for...", "Save this for..."
+
+For each hook:
+| Hook | Pattern | Why It Works | Risk Level |
+|------|---------|--------------|------------|
+
+**PLATFORM-SPECIFIC OPTIMIZATION**
+Adapt the top 5 hooks for:
+- Character limits
+- Platform culture and norms
+- Best posting format (thread, carousel, short video, etc.)
+
+**RECOMMENDED A/B TEST PAIRS**
+3 pairs of similar hooks to test which angle resonates better
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+16. Email Sequence Architect
+--------------------------------------------------
+
+[PROMPT START]
+
+You are an email marketing strategist who has built sequences generating millions in revenue. You understand the psychology of nurturing leads to conversion.
+
+Design an email sequence for:
+**Sequence purpose:** [WELCOME / LAUNCH / NURTURE / ONBOARDING / RE-ENGAGEMENT]
+**Product/Offer:** [WHAT YOU'RE ULTIMATELY SELLING OR PROMOTING]
+**Sequence length:** [NUMBER OF EMAILS] over [TIMEFRAME]
+**Audience:** [WHO IS RECEIVING THIS]
+**Entry point:** [HOW DID THEY JOIN THIS LIST]
+
+Build the complete sequence:
+
+**SEQUENCE STRATEGY**
+- Overarching narrative arc
+- Emotional journey from email 1 to final email
+- Key objections to address and when
+- Trust-building milestones
+
+**EMAIL SEQUENCE:**
+
+For each email:
+
+---
+**EMAIL [#]: [Internal Name]**
+**Send timing:** [Day X / Hours after previous]
+**Goal:** [What this email should accomplish]
+
+**Subject Line Options (3):**
+1.
+2.
+3.
+
+**Preview Text:**
+
+**Email Body:**
+[Complete email copy, 200-400 words]
+
+**CTA:**
+- Primary:
+- Button text:
+
+**Why This Email Works:**
+[1-2 sentences on the psychology/strategy]
+
+---
+
+[Continue for all emails]
+
+**SEQUENCE LOGIC**
+- Branching recommendations (if applicable)
+- What happens if they convert mid-sequence
+- What happens if they don't open emails
+
+**SUCCESS METRICS**
+| Email # | Target Open Rate | Target Click Rate |
+|---------|-----------------|-------------------|
+
+**TESTING PLAN**
+- Which elements to test first
+- How to optimize based on results
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+17. Thought Leadership Article Framework
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a ghostwriter for Fortune 500 executives who need to establish thought leadership. You know how to balance expertise with accessibility.
+
+Create a thought leadership piece on:
+**Topic/Trend:** [WHAT YOU WANT TO BE KNOWN FOR THINKING ABOUT]
+**Your unique perspective:** [WHAT DO YOU BELIEVE THAT OTHERS DON'T]
+**Your credibility source:** [EXPERIENCE / RESEARCH / CASE STUDIES]
+**Target audience:** [DECISION-MAKERS IN YOUR SPACE]
+**Publication target:** [LINKEDIN / MEDIUM / INDUSTRY PUBLICATION / PERSONAL BLOG]
+
+Develop the thought leadership content:
+
+**POSITIONING ANALYSIS**
+- Current conversation around this topic
+- Dominant perspectives and their limitations
+- Your contrarian or unique angle
+- Why your perspective matters now
+
+**TITLE OPTIONS (5)**
+- Range from provocative to professional
+- Match to publication norms
+
+**ARTICLE STRUCTURE**
+
+**Opening (200 words)**
+- Start with a moment, observation, or data point that illuminates the topic
+- Bridge to your perspective
+- Stake your claim
+
+**Context Section (300 words)**
+- Acknowledge the conventional wisdom
+- Explain why it's incomplete or wrong
+- Build credibility by showing you understand the full picture
+
+**Your Thesis (400 words)**
+- Present your unique perspective
+- Support with evidence from your experience/research
+- Anticipate and address the strongest objection
+
+**Implications Section (300 words)**
+- What changes if you're right
+- What should readers do differently
+- Practical applications of your perspective
+
+**Closing (150 words)**
+- Reinforce your key message
+- Call for action or change
+- End on a memorable note
+
+**AMPLIFICATION STRATEGY**
+- Key quotes for social sharing
+- Angles for follow-up content
+- Who to tag/share with for maximum reach
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+18. Content Calendar Architect
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a content marketing strategist who plans editorial calendars for high-growth brands. You understand how to balance consistency, variety, and strategic goals.
+
+Create a monthly content calendar for:
+**Business/Brand:** [DESCRIBE]
+**Primary platforms:** [LIST 2-4 PLATFORMS]
+**Monthly posting frequency per platform:** [HOW OFTEN]
+**Primary goal this month:** [AWARENESS / LEADS / SALES / ENGAGEMENT]
+**Key dates/events this month:** [HOLIDAYS, LAUNCHES, INDUSTRY EVENTS]
+**Content pillars/themes:** [3-5 TOPICS YOU REGULARLY COVER]
+
+Build the content calendar:
+
+**MONTHLY THEME**
+- Overarching theme that ties content together
+- Why this theme now
+- How it connects to business goals
+
+**CONTENT MIX STRATEGY**
+- Ratio of educational : promotional : entertaining : engaging
+- Recommended format mix per platform
+- Pillar/theme distribution
+
+**WEEKLY BREAKDOWN**
+
+**WEEK 1: [Theme]**
+| Day | Platform | Content Type | Topic/Angle | Key Message | CTA |
+|-----|----------|-------------|-------------|-------------|-----|
+| Mon |          |             |             |             |     |
+| Tue |          |             |             |             |     |
+| Wed |          |             |             |             |     |
+| Thu |          |             |             |             |     |
+| Fri |          |             |             |             |     |
+| Sat |          |             |             |             |     |
+| Sun |          |             |             |             |     |
+
+[Continue for all weeks]
+
+**EVERGREEN VS. TIMELY**
+- Which pieces are evergreen and can be rescheduled
+- Which are time-sensitive and must go out as planned
+
+**REPURPOSING MATRIX**
+How each major piece gets repurposed:
+| Original Piece | Repurpose 1 | Repurpose 2 | Repurpose 3 |
+|---------------|-------------|-------------|-------------|
+
+**PRODUCTION SCHEDULE**
+Working backwards from publish dates:
+| Content Piece | Research By | Draft By | Review By | Publish |
+|--------------|-------------|----------|-----------|---------|
+
+**SUCCESS METRICS**
+- What we're measuring this month
+- Benchmarks to beat
+- How we'll know if the strategy worked
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+19. Long-Form to Short-Form Converter
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a content atomization expert who knows how to extract maximum value from long-form content. You can identify moments that work in isolation.
+
+Transform this long-form content into short-form pieces:
+---
+[PASTE YOUR LONG-FORM CONTENT: BLOG POST, VIDEO TRANSCRIPT, PODCAST TRANSCRIPT, ETC.]
+---
+
+**Source content type:** [BLOG / VIDEO / PODCAST / PRESENTATION]
+**Target platforms:** [LIST SHORT-FORM PLATFORMS]
+**Content style:** [EDUCATIONAL / INSPIRATIONAL / ENTERTAINING / CONTROVERSIAL]
+
+Extract and create:
+
+**KEY MOMENTS ANALYSIS**
+Identify the 10 most valuable standalone moments:
+| Moment | Why It Works Alone | Best Platform | Format |
+|--------|-------------------|---------------|--------|
+
+**TWITTER/X CONTENT (5 pieces)**
+1. Single tweet (280 characters max) + why it works
+2. Thread starter + 3-5 supporting tweets
+3. Quote tweet format (for sharing article)
+4. Engagement question format
+5. Hot take extraction
+
+**LINKEDIN CONTENT (3 pieces)**
+1. Story-format post (draws from content narrative)
+2. Lessons/takeaways post (listicle format)
+3. Contrarian take post (challenges assumptions in content)
+
+**INSTAGRAM/TIKTOK (3 pieces)**
+1. Carousel concept (10 slides outlined with copy)
+2. Reel/Short script (30-60 seconds)
+3. Quote graphic (3 text options)
+
+**YOUTUBE SHORTS (2 pieces)**
+1. Hook + key insight + CTA (script with timestamps)
+2. Clip identification (if from video) with edit notes
+
+**NEWSLETTER TEASER (1 piece)**
+- Subject line options
+- 150-word excerpt that drives clicks to full piece
+
+**MICRO-CONTENT BANK**
+| Quote/Fact | Characters | Works For |
+|------------|------------|-----------|
+| 10 standalone snippets that can be used anywhere |
+
+[PROMPT END]
+
+Tips for Use:
+
+--------------------------------------------------
+20. Reader Objection Handler
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a conversion copywriter who specializes in preemptively addressing reader objections within content. You know that unaddressed objections kill engagement.
+
+Analyze this content for objection handling:
+**Content topic:** [WHAT YOUR CONTENT IS ABOUT]
+**Target reader:** [WHO IS THIS FOR]
+**Desired action:** [WHAT YOU WANT THEM TO DO AFTER READING]
+**Current content draft:** [OPTIONAL - PASTE IF YOU HAVE ONE]
+
+Provide objection analysis and solutions:
+
+**OBJECTION MAPPING**
+Identify all potential reader objections:
+
+| Objection | Type | Severity | When It Arises |
+|-----------|------|----------|----------------|
+| "This won't work for me because..." | Relevance | High | Early |
+| "I don't have time/money/skills..." | Resource | Medium | Mid |
+| "I've tried this before and..." | Experience | High | Throughout |
+| "How do I know this is true..." | Credibility | Medium | Early |
+| "What if it doesn't work..." | Risk | High | Before CTA |
+
+[Continue with all relevant objections]
+
+**OBJECTION HANDLING COPY**
+For each objection, provide:
+
+**Objection:** [Statement]
+**Handle with:** [PREEMPT / ACKNOWLEDGE / EVIDENCE / TESTIMONIAL / GUARANTEE]
+**Copy to add:**
+[Exact language to include in content]
+**Where to place:** [Section of content where this should appear]
+**Transition in:** [How to naturally introduce this]
+**Transition out:** [How to return to main content flow]
+
+**OBJECTION-HANDLED OUTLINE**
+Show where each objection handler fits in the content structure:
+- Section 1: [Topic] + handles [objection X]
+- Section 2: [Topic] + handles [objection Y]
+- [Continue...]
+
+**FINAL OBJECTION SWEEP**
+Objections that should be addressed in:
+- FAQ section
+- Testimonial selection
+- CTA area
+- P.S. (for email) or final section
+
+[PROMPT END]
+
+Tips for Use:
+
+============================================================
+Generated by PerfectPrompts.ai
+============================================================

@@ -1,0 +1,731 @@
+============================================================
+PRODUCTIVITY & PERSONAL PROMPTS
+============================================================
+
+
+--------------------------------------------------
+1. Weekly Planning & Review System
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a productivity coach who helps professionals achieve peak performance.
+
+Help me with weekly planning/review:
+
+**MODE:** [WEEKLY PLANNING / WEEKLY REVIEW / BOTH]
+
+**For planning:**
+- Calendar constraints: [MEETINGS, DEADLINES]
+- Top priorities: [MUST GET DONE]
+- Ongoing projects: [IN PROGRESS]
+- Hours available for deep work: [ESTIMATE]
+
+**For review:**
+- What I planned: [LAST WEEK'S PLAN]
+- What happened: [REALITY]
+- Wins: [ACCOMPLISHMENTS]
+- Challenges: [OBSTACLES]
+
+Provide:
+
+**PLANNING OUTPUT:**
+- Week theme and #1 priority
+- Big 3 outcomes for success
+- Daily breakdown with time blocks
+- NOT doing list (explicitly deprioritized)
+- Potential obstacles and prevention
+- Weekly metrics
+
+**REVIEW OUTPUT:**
+- Scorecard (planned vs actual)
+- Wins to celebrate
+- Incomplete items with new plan
+- Lessons learned
+- Next week preview
+
+[PROMPT END]
+
+Tips for Use: Do planning on Sunday evening or Friday afternoon.
+
+--------------------------------------------------
+2. Task Prioritization Matrix
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a productivity expert who helps people focus on what matters.
+
+Prioritize these tasks:
+[LIST ALL TASKS]
+
+**Context:**
+- Role: [YOUR JOB]
+- Current projects: [MAJOR INITIATIVES]
+- Deadlines: [DUE DATES]
+- Hours available: [TIME]
+- Energy level: [HIGH/MEDIUM/LOW]
+
+Provide prioritization using:
+
+**1. EISENHOWER MATRIX**
+Urgent+Important, Not Urgent+Important, Urgent+Not Important, Neither
+
+**2. ICE SCORING**
+| Task | Impact | Confidence | Ease | Score |
+|------|--------|------------|------|-------|
+
+**3. MOSCOW METHOD**
+Must have, Should have, Could have, Won't have
+
+**4. ENERGY MATCHING**
+| Task | Energy Required | Best Time |
+|------|-----------------|-----------|
+
+**5. FINAL PRIORITIZED LIST**
+| Priority | Task | Time | Deadline |
+|----------|------|------|----------|
+
+**6. TODAY'S FOCUS**
+Top 3 if you can only do 3 things
+
+**7. QUICK WINS**
+Tasks <15 min for momentum
+
+[PROMPT END]
+
+Tips for Use: List ALL tasks before prioritizing.
+
+--------------------------------------------------
+3. Learning Accelerator
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a learning scientist who helps people master skills faster.
+
+Help me learn:
+
+**What:** [SKILL OR TOPIC]
+**Why:** [MOTIVATION]
+**Current level:** [BEGINNER/INTERMEDIATE/ADVANCED]
+**Time available:** [HOURS PER WEEK]
+**Timeline:** [DEADLINE]
+**Learning style:** [VISUAL/AUDITORY/KINESTHETIC/READING]
+
+Create learning plan:
+
+**1. SKILL DECOMPOSITION**
+| Sub-skill | Importance | Difficulty | Order |
+|-----------|------------|------------|-------|
+
+**2. LEARNING OBJECTIVES**
+Measurable outcomes
+
+**3. LEARNING PATH**
+- Phase 1: Foundation
+- Phase 2: Building
+- Phase 3: Mastery
+
+**4. WEEKLY SCHEDULE**
+| Day | Time | Activity | Focus |
+|-----|------|----------|-------|
+
+**5. PRACTICE DESIGN**
+- Spaced repetition schedule
+- Active recall methods
+- Deliberate practice exercises
+
+**6. RESOURCES**
+| Resource | Type | Cost | Best For |
+|----------|------|------|----------|
+
+**7. PLATEAU BREAKERS**
+When progress stalls
+
+**8. APPLICATION OPPORTUNITIES**
+Real-world ways to use this skill
+
+[PROMPT END]
+
+Tips for Use: Be specific about your current level.
+
+--------------------------------------------------
+4. Problem-Solving Framework
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a problem-solving expert who breaks down complexity.
+
+Help me solve:
+
+**The problem:** [DESCRIBE]
+**Context:** [BACKGROUND]
+**Constraints:** [LIMITATIONS]
+**Previous attempts:** [WHAT'S BEEN TRIED]
+**Deadline:** [WHEN]
+
+Work through:
+
+**1. PROBLEM DEFINITION**
+- Problem statement (1 sentence)
+- Impact of not solving
+- Success criteria
+
+**2. ROOT CAUSE ANALYSIS**
+5 Whys and Fishbone diagram
+
+**3. SOLUTION BRAINSTORM**
+| Solution | Pros | Cons | Feasibility | Impact |
+|----------|------|------|-------------|--------|
+
+**4. DECISION MATRIX**
+Weighted scoring of options
+
+**5. RECOMMENDED SOLUTION**
+With risks and mitigations
+
+**6. IMPLEMENTATION PLAN**
+| Step | Action | Owner | Deadline |
+|------|--------|-------|----------|
+
+**7. SUCCESS METRICS**
+
+**8. CONTINGENCY PLAN**
+
+[PROMPT END]
+
+Tips for Use: Describe the problem in detail.
+
+--------------------------------------------------
+5. Personal Goal Setting System
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a goal achievement coach who helps people accomplish things.
+
+Help me with this goal:
+
+**Goal:** [WHAT YOU WANT]
+**Why:** [DEEP MOTIVATION]
+**Timeline:** [WHEN]
+**Current state:** [WHERE YOU ARE]
+**Obstacles:** [WHAT MIGHT STOP YOU]
+
+Create goal plan:
+
+**1. SMART CHECK**
+Specific, Measurable, Achievable, Relevant, Time-bound
+
+**2. MOTIVATION MAPPING**
+Surface, deeper, and deepest motivation
+
+**3. MILESTONE BREAKDOWN**
+| Milestone | Date | Metric |
+|-----------|------|--------|
+| 25% | | |
+| 50% | | |
+| 75% | | |
+| 100% | | |
+
+**4. HABIT DESIGN**
+| Habit | Trigger | Time | Duration |
+|-------|---------|------|----------|
+
+**5. OBSTACLE PRE-MORTEM**
+| Obstacle | Prevention | Response |
+|----------|------------|----------|
+
+**6. SUPPORT SYSTEM**
+Accountability, expertise, community
+
+**7. REWARD STRUCTURE**
+| Milestone | Reward |
+|-----------|--------|
+
+**8. IDENTITY SHIFT**
+"I am the type of person who..."
+
+**9. ONE THING TODAY**
+Single action to start
+
+[PROMPT END]
+
+Tips for Use: Be honest about your deep motivation.
+
+--------------------------------------------------
+6. Decision Making Clarifier
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a decision coach who helps people make choices they won't regret.
+
+Help me decide:
+
+**Decision:** [WHAT YOU'RE DECIDING]
+**Options:**
+- Option A: [DESCRIPTION]
+- Option B: [DESCRIPTION]
+- Option C: [DESCRIPTION]
+
+**Context:** [BACKGROUND]
+**What makes this hard:** [CORE TENSION]
+
+Guide me through:
+
+**1. VALUES CLARIFICATION**
+| Value | Importance | How Options Serve It |
+|-------|------------|---------------------|
+
+**2. FEAR VS INTUITION CHECK**
+What you're afraid of and whether it's protecting or limiting
+
+**3. 10/10/10 ANALYSIS**
+How you'll feel in 10 minutes, 10 months, 10 years
+
+**4. REVERSIBILITY CHECK**
+| Option | Reversibility | Cost to Reverse |
+|--------|---------------|-----------------|
+
+**5. ADVICE TO A FRIEND**
+If your best friend had this decision...
+
+**6. REGRET MINIMIZATION**
+| Option | Regret If Wrong | Regret If Don't Try |
+|--------|-----------------|---------------------|
+
+**7. DECISION**
+Recommended option with rationale
+
+**8. FIRST ACTION**
+What to do now
+
+[PROMPT END]
+
+Tips for Use: Be honest about what you're afraid of.
+
+--------------------------------------------------
+7. Daily Planning Optimizer
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a productivity expert who helps design perfect days.
+
+Help me plan today:
+
+**Energy level:** [1-10]
+**Calendar commitments:** [FIXED EVENTS]
+**Top priority:** [MOST IMPORTANT]
+**All tasks:** [LIST]
+**How I want to feel tonight:** [DESIRED STATE]
+
+Design my day:
+
+**1. MIT (Most Important Task)**
+Protected time for this
+
+**2. SCHEDULE**
+| Time | Activity | Energy | Notes |
+|------|----------|--------|-------|
+
+**3. TIME BLOCKS**
+- Deep work: [WHEN]
+- Meetings: [WHEN]
+- Admin: [WHEN]
+- Breaks: [WHEN]
+
+**4. ENERGY MANAGEMENT**
+| Energy Level | Time | Best Activities |
+|--------------|------|-----------------|
+
+**5. DONE LIST**
+What you'll have completed by end of day
+
+**6. BOUNDARIES**
+What you won't do today
+
+**7. SHUTDOWN RITUAL**
+End-of-day routine
+
+[PROMPT END]
+
+Tips for Use: Be honest about your energy level.
+
+--------------------------------------------------
+8. Research & Synthesis Assistant
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a research analyst who finds and synthesizes information.
+
+Research:
+
+**Topic:** [WHAT]
+**Purpose:** [WHY]
+**Depth:** [OVERVIEW/MODERATE/DEEP]
+**Output format:** [SUMMARY/REPORT/DECISION]
+
+Provide:
+
+**1. KEY QUESTIONS**
+What needs to be answered
+
+**2. KEY FINDINGS**
+For each: summary, evidence, source quality, implications
+
+**3. SYNTHESIS**
+- Consensus areas
+- Debate areas
+- Knowledge gaps
+
+**4. EXECUTIVE SUMMARY**
+2-3 paragraphs
+
+**5. RECOMMENDATIONS**
+
+**6. QUICK REFERENCE**
+Key facts and stats
+
+[PROMPT END]
+
+Tips for Use: Be specific about depth needed.
+
+--------------------------------------------------
+9. Meeting Preparation System
+--------------------------------------------------
+
+[PROMPT START]
+
+You are an executive coach who helps people show up powerfully.
+
+Prepare me for:
+
+**Meeting:** [PURPOSE]
+**With:** [ATTENDEES]
+**Your role:** [POSITION]
+**Stakes:** [WHY IT MATTERS]
+
+Provide:
+
+**1. OBJECTIVE**
+Minimum, target, stretch outcomes
+
+**2. ATTENDEE ANALYSIS**
+| Person | Perspective | Concerns | Wants |
+|--------|-------------|----------|-------|
+
+**3. KEY MESSAGES**
+3 main points with evidence
+
+**4. ANTICIPATED QUESTIONS**
+| Question | Answer |
+|----------|--------|
+
+**5. QUESTIONS TO ASK**
+With purpose of each
+
+**6. OBJECTION HANDLING**
+| Objection | Response |
+|-----------|----------|
+
+**7. PRE-MEETING RITUAL**
+15 minutes before
+
+**8. ONE-PAGE PREP CARD**
+To glance at before meeting
+
+[PROMPT END]
+
+Tips for Use: Include info about other attendees.
+
+--------------------------------------------------
+10. Habit Design Workshop
+--------------------------------------------------
+
+[PROMPT START]
+
+You are a behavioral scientist specializing in habit formation.
+
+Help me build:
+
+**Habit:** [WHAT]
+**Why:** [MOTIVATION]
+**Current behavior:** [WHAT YOU DO NOW]
+**Past attempts:** [WHAT YOU'VE TRIED]
+**Obstacles:** [WHAT GETS IN THE WAY]
+
+Design:
+
+**1. HABIT SPECIFICATION**
+Specific behavior, duration, frequency, location, time
+Tiny version: smallest possible
+
+**2. HABIT STACKING**
+"After I [EXISTING], I will [NEW]"
+
+**3. ENVIRONMENT DESIGN**
+Make it easier, remove obstacles, add cues
+
+**4. IMPLEMENTATION INTENTIONS**
+If [OBSTACLE], then I will [RESPONSE]
+
+**5. TRACKING SYSTEM**
+Method, streak target, review frequency
+
+**6. REWARD DESIGN**
+Immediate and milestone rewards
+
+**7. ACCOUNTABILITY**
+Who, how often, consequences
+
+**8. IDENTITY SHIFT**
+"I am the type of person who..."
+
+**9. 30-DAY PLAN**
+Week by week focus
+
+**10. RECOVERY PROTOCOL**
+When you miss
+
+[PROMPT END]
+
+Tips for Use: Start smaller than you think.
+
+--------------------------------------------------
+11. Email & Communication Optimizer
+--------------------------------------------------
+
+[PROMPT START]
+
+Help me write/improve:
+
+**Type:** [EMAIL/MESSAGE/SLACK]
+**Recipient:** [WHO]
+**Purpose:** [GOAL]
+**Tone:** [FORMAL/FRIENDLY/URGENT]
+**Draft:** [YOUR VERSION]
+
+Provide:
+- Optimized version
+- Subject line options
+- Key improvements
+- Alternative versions
+- Response templates for likely replies
+
+[PROMPT END]
+
+
+--------------------------------------------------
+12. Procrastination Breaker
+--------------------------------------------------
+
+[PROMPT START]
+
+Help me stop procrastinating on:
+
+**Task:** [WHAT]
+**Why it matters:** [CONSEQUENCES]
+**Why avoiding:** [BE HONEST]
+**Deadline:** [WHEN]
+
+Provide:
+- Root cause analysis
+- Smallest first step
+- Time-boxing strategy
+- Accountability mechanism
+- "Just start" script
+
+[PROMPT END]
+
+
+--------------------------------------------------
+13. Difficult Conversation Preparer
+--------------------------------------------------
+
+[PROMPT START]
+
+Prepare me for conversation:
+
+**With:** [WHO]
+**About:** [TOPIC]
+**Your goal:** [OUTCOME]
+**Their perspective:** [THEIR VIEW]
+
+Provide:
+- Opening script
+- Key points
+- Responses to objections
+- De-escalation phrases
+- Follow-up plan
+
+[PROMPT END]
+
+
+--------------------------------------------------
+14. Personal Retrospective
+--------------------------------------------------
+
+[PROMPT START]
+
+Help me reflect on:
+
+**Period:** [MONTH/QUARTER/YEAR]
+**Wins:** [ACCOMPLISHMENTS]
+**Challenges:** [DIFFICULTIES]
+**Surprises:** [UNEXPECTED]
+
+Provide:
+- Pattern analysis
+- Key lessons
+- What to do more/less of
+- Commitments for next period
+
+[PROMPT END]
+
+
+--------------------------------------------------
+15. Energy & Focus Optimizer
+--------------------------------------------------
+
+[PROMPT START]
+
+Help me optimize:
+
+**Current patterns:**
+- Wake time, sleep quality
+- Energy peaks and crashes
+- Current habits
+
+**Goals:**
+- Need more energy for: [WHEN]
+- Focus challenges: [DESCRIPTION]
+
+Provide:
+- Energy audit
+- Optimal schedule
+- Focus techniques
+- Recovery protocols
+
+[PROMPT END]
+
+
+--------------------------------------------------
+16. Book/Content Synthesizer
+--------------------------------------------------
+
+[PROMPT START]
+
+Help me get more from:
+
+**Content:** [TITLE]
+**Your goal:** [WHY CONSUMING]
+**Time:** [FOR REVIEW]
+
+Provide:
+- Key concepts summary
+- Action items
+- Questions to reflect on
+- Implementation plan
+- Review schedule
+
+[PROMPT END]
+
+
+--------------------------------------------------
+17. Career Clarity Session
+--------------------------------------------------
+
+[PROMPT START]
+
+Help me think through:
+
+**Current role:** [POSITION]
+**Satisfaction:** [WHAT'S WORKING/NOT]
+**Options:** [POSSIBILITIES]
+**Values:** [WHAT MATTERS]
+
+Provide:
+- Values clarification
+- Options analysis
+- Skills audit
+- Exploration experiments
+- First steps
+
+[PROMPT END]
+
+
+--------------------------------------------------
+18. Stress & Overwhelm Reducer
+--------------------------------------------------
+
+[PROMPT START]
+
+Help me when overwhelmed:
+
+**On my mind:**
+[BRAIN DUMP EVERYTHING]
+
+**Deadline pressures:** [URGENT]
+
+Provide:
+- Sorted, categorized list
+- Triage matrix
+- Items to eliminate/delegate
+- First action per item
+- 15-minute reset plan
+
+[PROMPT END]
+
+
+--------------------------------------------------
+19. Negotiation Preparer
+--------------------------------------------------
+
+[PROMPT START]
+
+Prepare me for negotiation:
+
+**Negotiating:** [WHAT]
+**With:** [WHO]
+**Your position:** [WANT]
+**Your BATNA:** [ALTERNATIVE]
+
+Provide:
+- Preparation checklist
+- Opening strategy
+- Concession plan
+- Responses to tactics
+- Walk-away triggers
+
+[PROMPT END]
+
+
+--------------------------------------------------
+20. Personal Knowledge Management
+--------------------------------------------------
+
+[PROMPT START]
+
+Help me build knowledge system:
+
+**Topics learning:** [AREAS]
+**Current organization:** [HOW YOU STORE]
+**Challenges:** [WHAT'S HARD]
+
+Provide:
+- Note-taking framework
+- Organization system
+- Review schedule
+- Output templates
+
+[PROMPT END]
+
+
+============================================================
+Generated by PerfectPrompts.ai
+============================================================

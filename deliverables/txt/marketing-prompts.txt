@@ -1,0 +1,1182 @@
+============================================================
+MARKETING & ADVERTISING PROMPT TEMPLATES
+============================================================
+
+
+--------------------------------------------------
+Ad Copy & Creative
+--------------------------------------------------
+
+
+>>> 1. Facebook Ad Copy Generator (Hook-Story-Offer Framework)
+
+[PROMPT START]
+
+You are a direct response copywriter who has generated over $100M in Facebook ad revenue. Your specialty is the Hook-Story-Offer framework.
+
+I need Facebook ad copy for: [PRODUCT/SERVICE]
+Target audience: [DEMOGRAPHIC + PSYCHOGRAPHIC]
+Main pain point: [PROBLEM THEY FACE]
+Key benefit: [PRIMARY VALUE PROP]
+Price point: [PRICE OR RANGE]
+
+Create 3 variations of ad copy using the Hook-Story-Offer framework:
+1. Pattern Interrupt Hook (first 1-2 lines that stop the scroll)
+2. Relatable Story (builds connection and credibility)
+3. Irresistible Offer (clear CTA with urgency element)
+
+For each variation, use a different emotional angle:
+- Variation A: Fear of missing out / exclusivity
+- Variation B: Transformation / aspiration
+- Variation C: Social proof / authority
+
+Format each ad with:
+- Primary text (125 characters or less for preview)
+- Full ad body
+- Suggested headline (40 characters)
+- Description (30 characters)
+- CTA button recommendation
+
+[PROMPT END]
+
+Tips for Use:
+Example Output: Three complete Facebook ad variations with different emotional hooks, each formatted for direct upload to Ads Manager.
+
+>>> 2. Google Ads Responsive Search Ad Generator
+
+[PROMPT START]
+
+Act as a certified Google Ads specialist with 10+ years experience in [INDUSTRY].
+
+I need responsive search ads for:
+Campaign goal: [LEADS/SALES/TRAFFIC]
+Product/Service: [DESCRIPTION]
+Target keyword: [PRIMARY KEYWORD]
+Unique selling points: [LIST 3-5]
+Competitor we're beating: [NAME + WHY WE'RE BETTER]
+
+Generate a complete Responsive Search Ad set:
+
+HEADLINES (provide 15 - max 30 characters each):
+- 5 headlines featuring the keyword
+- 3 headlines with numbers/statistics
+- 3 headlines with benefits
+- 2 headlines with calls-to-action
+- 2 headlines with brand/trust signals
+
+DESCRIPTIONS (provide 4 - max 90 characters each):
+- 2 benefit-focused descriptions
+- 1 feature-focused description
+- 1 urgency/CTA description
+
+Pin recommendations: Suggest which headlines should be pinned to Position 1 and why.
+
+Quality score prediction: Rate the ad strength (Excellent/Good/Average) and explain.
+
+[PROMPT END]
+
+Tips for Use:
+Example Output: 15 headlines and 4 descriptions ready for upload, with strategic pinning recommendations.
+
+>>> 3. LinkedIn Thought Leadership Ad Copy
+
+[PROMPT START]
+
+You are a B2B marketing strategist who specializes in LinkedIn advertising for [INDUSTRY] companies targeting [JOB TITLES].
+
+Create a LinkedIn Sponsored Content ad that doesn't feel like an ad. The goal is [AWARENESS/LEADS/WEBINAR SIGNUPS].
+
+Company: [NAME]
+Offering: [PRODUCT/SERVICE]
+Target persona: [JOB TITLE] at [COMPANY SIZE] who struggles with [PROBLEM]
+Content asset: [WHITEPAPER/WEBINAR/CASE STUDY/DEMO]
+
+Write the ad in this format:
+
+HOOK (line 1 - must create curiosity gap):
+[Pattern interrupt question or bold statement]
+
+INSIGHT (lines 2-4 - provide genuine value):
+[Share a non-obvious insight or data point that positions you as a thought leader]
+
+BRIDGE (line 5 - connect insight to offer):
+[Natural transition that doesn't feel salesy]
+
+CTA (line 6 - low-friction ask):
+[Clear next step]
+
+Also provide:
+- 3 alternative hooks using different angles (contrarian, data-driven, story-based)
+- Image/creative direction recommendation
+- Best day/time to run based on target audience
+
+[PROMPT END]
+
+Tips for Use:
+Example Output: Complete LinkedIn ad with 3 hook variations and creative direction guidance.
+
+--------------------------------------------------
+Email Marketing
+--------------------------------------------------
+
+
+>>> 4. Welcome Sequence Architect
+
+[PROMPT START]
+
+You are an email marketing strategist who has optimized welcome sequences for 200+ ecommerce and SaaS brands, achieving average open rates of 65%+ and conversion rates of 15%+.
+
+Design a 7-email welcome sequence for:
+Business type: [ECOMMERCE/SAAS/SERVICE]
+Product: [DESCRIPTION]
+Average customer value: [ACV]
+Main conversion goal: [FIRST PURCHASE/UPGRADE/BOOK CALL]
+Brand personality: [PLAYFUL/PROFESSIONAL/LUXURIOUS/ETC]
+
+For each email, provide:
+
+EMAIL [#] - [NAME] (Send: [TIMING])
+Subject Line: [MAIN] + [A/B TEST ALTERNATIVE]
+Preview Text: [40-50 CHARACTERS]
+Email Goal: [SPECIFIC OBJECTIVE]
+Content Framework:
+- Hook (first line)
+- Body outline (bullet points)
+- CTA (primary action)
+Psychological trigger: [SCARCITY/SOCIAL PROOF/RECIPROCITY/ETC]
+
+Recommended sequence structure:
+1. Welcome + Immediate Value (0 hours)
+2. Brand Story + Mission (24 hours)
+3. Social Proof + Results (48 hours)
+4. Education + Overcome Objection (72 hours)
+5. Soft Sell + Incentive (Day 5)
+6. Urgency + Final Push (Day 6)
+7. Last Chance + Alternative Path (Day 7)
+
+Also include:
+- Key metrics to track for each email
+- Segmentation triggers (what moves people out of sequence)
+- Subject line formulas used with explanation
+
+[PROMPT END]
+
+Tips for Use:
+Example Output: Complete 7-email sequence with subject lines, content frameworks, psychological triggers, and metrics to track.
+
+>>> 5. Cart Abandonment Recovery Sequence
+
+[PROMPT START]
+
+You're a conversion rate optimization specialist. I need a 4-email cart abandonment sequence that recovers 15%+ of abandoned carts.
+
+Business: [NAME]
+Product type: [DESCRIPTION]
+Average cart value: [AMOUNT]
+Primary abandonment reasons: [SHIPPING/PRICE/COMPARISON SHOPPING/ETC]
+Brand voice: [DESCRIPTION]
+
+Create 4 emails with escalating urgency:
+
+EMAIL 1 - "Gentle Reminder" (1 hour after abandonment)
+[Helpful, not pushy - remind them what they left behind]
+
+EMAIL 2 - "Overcome Objections" (24 hours)
+[Address the top reason people don't buy - provide reassurance]
+
+EMAIL 3 - "Social Proof" (48 hours)
+[Show others who bought and loved it]
+
+EMAIL 4 - "Incentive + Urgency" (72 hours)
+[Offer incentive if appropriate, create deadline]
+
+For each email include:
+- Subject line (+ emoji recommendation yes/no)
+- Preview text
+- Complete email copy
+- Dynamic content recommendations (cart contents, product images)
+- CTA button text
+
+Strategic notes:
+- At what cart value should we offer discounts?
+- What alternative offers work if we can't discount?
+- Recommended excluded products/categories from discounts
+
+[PROMPT END]
+
+Tips for Use:
+Example Output: Four complete emails with strategic recommendations for discount thresholds and dynamic content.
+
+>>> 6. Re-engagement Campaign for Cold Subscribers
+
+[PROMPT START]
+
+Act as a retention marketing expert. I have [NUMBER] subscribers who haven't opened an email in [TIMEFRAME].
+
+Business: [NAME]
+Industry: [TYPE]
+Original opt-in offer: [WHAT THEY SIGNED UP FOR]
+Current email frequency: [HOW OFTEN WE EMAIL]
+
+Create a 3-email "win back" campaign with the goal of either re-engaging them or cleaning the list.
+
+EMAIL 1: "We Miss You" (pattern interrupt)
+Strategy: Use a completely different subject line style than normal to break pattern
+Include: What they're missing, not what we're missing
+
+EMAIL 2: "Is This Goodbye?" (clear choice)
+Strategy: Give them explicit choice to stay or go
+Include: Simple preference center option
+
+EMAIL 3: "Final Notice" (clean the list)
+Strategy: Inform them they'll be removed
+Include: One-click resubscribe option
+
+For each email provide:
+- 5 subject line options ranked by predicted open rate
+- Complete email copy (keep SHORT - under 100 words)
+- Specific CTA
+- Unsubscribe link placement strategy
+
+Also answer:
+- Should we offer an incentive to return? What kind?
+- What segment should we create from non-responders?
+- How does cleaning this list improve deliverability metrics?
+
+[PROMPT END]
+
+Tips for Use:
+Example Output: Three concise emails with multiple subject line options and list hygiene strategy.
+
+--------------------------------------------------
+Brand & Positioning
+--------------------------------------------------
+
+
+>>> 7. Brand Voice Guidelines Generator
+
+[PROMPT START]
+
+You're a brand strategist who has developed voice guidelines for Fortune 500 companies and high-growth startups.
+
+Create comprehensive brand voice guidelines for:
+
+Company: [NAME]
+Industry: [TYPE]
+Target audience: [PRIMARY + SECONDARY]
+Competitors: [LIST 2-3 AND WHAT THEY SOUND LIKE]
+Brand personality traits (pick 3-5): [E.G., BOLD, FRIENDLY, EXPERT, IRREVERENT]
+Words we never use: [ANY SPECIFIC TERMS TO AVOID]
+
+Generate a Brand Voice Guide with:
+
+1. VOICE OVERVIEW
+- One-sentence voice description
+- Our voice is: [3 ATTRIBUTES]
+- Our voice is not: [3 ATTRIBUTES]
+- If our brand were a person, they would be: [ARCHETYPE]
+
+2. TONE VARIATIONS
+How does our voice adapt across contexts:
+- Social media (casual)
+- Website (confident)
+- Customer support (empathetic)
+- Sales materials (persuasive)
+- Legal/compliance (professional)
+
+3. VOCABULARY
+- Words we love (10-15 on-brand terms)
+- Words we avoid (10-15 off-brand terms)
+- Industry jargon policy (when to use/avoid)
+- Competitor terms we never use
+
+4. GRAMMAR & STYLE
+- Contractions (yes/no)
+- First/second/third person preference
+- Sentence length guideline
+- Emoji policy
+- Capitalization rules
+- Oxford comma stance
+
+5. EXAMPLES
+- Before/after rewrites for common communications
+- Sample social posts in voice
+- Sample email in voice
+
+6. QUICK REFERENCE CARD
+[One-page summary a new team member could use]
+
+[PROMPT END]
+
+Tips for Use:
+Example Output: Complete brand voice guide document ready for team distribution.
+
+>>> 8. Customer Persona Deep-Dive
+
+[PROMPT START]
+
+You're a consumer psychologist and market researcher. Help me build a detailed customer persona that goes beyond demographics.
+
+Business: [NAME]
+Product/Service: [DESCRIPTION]
+Existing customer data (if any): [INSIGHTS FROM SURVEYS/INTERVIEWS/ANALYTICS]
+Industry: [TYPE]
+
+Create a comprehensive persona document:
+
+1. DEMOGRAPHIC SNAPSHOT
+- Name (realistic fictional name)
+- Age range
+- Location type (urban/suburban/rural)
+- Income level
+- Education
+- Job title/career stage
+- Family situation
+
+2. PSYCHOGRAPHIC DEEP DIVE
+- Core values (what matters most)
+- Fears (what keeps them up at night)
+- Aspirations (where they want to be)
+- Identity (how they see themselves)
+- Tribe (who they associate with)
+
+3. PROBLEM AWARENESS
+- Level of awareness (unaware/problem-aware/solution-aware/product-aware)
+- How they describe their problem (in their words)
+- Failed solutions they've tried
+- What they think the solution is (vs. reality)
+
+4. BUYING BEHAVIOR
+- Decision-making style (impulsive/researched/consensus-seeking)
+- Typical buying objections
+- Trust signals that matter to them
+- Price sensitivity level
+- Who else influences their decision
+
+5. MEDIA CONSUMPTION
+- Social platforms (ranked by usage)
+- Content formats they prefer
+- Influencers/thought leaders they follow
+- Publications they read
+- Podcasts they listen to
+
+6. A DAY IN THEIR LIFE
+[Narrative describing their typical day, when/where they might encounter our product, their mindset at that moment]
+
+7. MESSAGING CHEAT SHEET
+- Headlines that would catch their attention
+- Proof points that would convince them
+- Objections we must overcome
+- The transformation they want
+
+8. QUOTES
+[5 fictional but realistic quotes this persona might say about their problem and potential solutions]
+
+[PROMPT END]
+
+Tips for Use:
+Example Output: Complete persona document with actionable insights for every customer touchpoint.
+
+>>> 9. Competitive Positioning Matrix
+
+[PROMPT START]
+
+You're a competitive intelligence analyst and positioning strategist.
+
+Analyze my competitive landscape and help me find my positioning:
+
+My company: [NAME]
+What we offer: [DESCRIPTION]
+Our price point: [PRICE VS MARKET]
+
+Competitors (provide 3-5):
+- [COMPETITOR 1]: [BRIEF DESCRIPTION]
+- [COMPETITOR 2]: [BRIEF DESCRIPTION]
+- [COMPETITOR 3]: [BRIEF DESCRIPTION]
+
+Our key differentiators: [WHAT MAKES US DIFFERENT]
+Our weaknesses: [WHERE WE FALL SHORT]
+
+Analyze and provide:
+
+1. POSITIONING MAP
+Create a 2x2 matrix with relevant dimensions for this market:
+- Dimension 1: [SUGGEST RELEVANT AXIS]
+- Dimension 2: [SUGGEST RELEVANT AXIS]
+- Place all competitors and us on the map
+- Identify whitespace opportunities
+
+2. COMPETITOR BREAKDOWN
+For each competitor:
+- Positioning statement (how they position themselves)
+- Target customer
+- Key strengths
+- Key weaknesses
+- Pricing strategy
+- Messaging themes
+- What they do better than us
+- What we do better than them
+
+3. POSITIONING OPTIONS
+Give me 3 potential positioning strategies:
+
+Option A: [POSITIONING]
+- Target segment
+- Key message
+- Proof points needed
+- Risks
+
+Option B: [POSITIONING]
+- Target segment
+- Key message
+- Proof points needed
+- Risks
+
+Option C: [POSITIONING]
+- Target segment
+- Key message
+- Proof points needed
+- Risks
+
+4. RECOMMENDED POSITIONING
+Based on analysis, recommend the strongest positioning:
+- One-sentence positioning statement
+- Supporting messages (3)
+- Ideal customer description
+- Competitive response to anticipate
+
+5. BATTLECARDS
+For each top competitor, create a quick battlecard:
+- When we win against them: [SCENARIO]
+- When we lose to them: [SCENARIO]
+- Key talking points when they come up
+- Landmines to avoid
+
+[PROMPT END]
+
+Tips for Use:
+Example Output: Complete competitive analysis with positioning recommendations and sales battlecards.
+
+--------------------------------------------------
+Landing Pages & Conversion
+--------------------------------------------------
+
+
+>>> 10. High-Converting Landing Page Copy
+
+[PROMPT START]
+
+You're a conversion copywriter who has written landing pages that have generated millions in revenue. You specialize in the PASTOR framework (Problem, Amplify, Story, Transformation, Offer, Response).
+
+Write landing page copy for:
+
+Product/Service: [DESCRIPTION]
+Target audience: [WHO]
+Main problem solved: [PAIN POINT]
+Price: [AMOUNT]
+Conversion goal: [SIGN UP/BUY/BOOK DEMO]
+Awareness level: [MOST VISITORS ARE PROBLEM-AWARE/SOLUTION-AWARE/ETC]
+
+Generate complete landing page copy:
+
+1. HERO SECTION
+- Headline (benefit-driven, 10 words or less)
+- Subheadline (clarify + credibility)
+- CTA button text
+- Trust signals (suggest what to include)
+
+2. PROBLEM SECTION
+- Problem headline
+- 3 problem agitation points (twist the knife)
+- "Sound familiar?" validation statement
+
+3. SOLUTION SECTION
+- Solution headline
+- How it works (3-step process)
+- Key features translated to benefits (5-6)
+
+4. PROOF SECTION
+- Social proof headline
+- 3 testimonial prompts (questions to ask customers for testimonials)
+- Logos/trust badge recommendations
+- Key statistics to include
+
+5. OFFER SECTION
+- Offer headline
+- What's included (itemized with perceived value)
+- Bonus items (if applicable)
+- Guarantee/risk reversal
+
+6. FAQ SECTION
+- 5 objection-handling FAQs
+- 3 practical FAQs
+
+7. FINAL CTA SECTION
+- Urgency/scarcity element
+- Final CTA headline
+- Button text
+- P.S. statement
+
+Also provide:
+- Recommended page length (short/medium/long) with reasoning
+- Above-the-fold optimization notes
+- Mobile-specific recommendations
+
+[PROMPT END]
+
+Tips for Use:
+Example Output: Complete landing page copy ready for design implementation.
+
+>>> 11. A/B Test Hypothesis Generator
+
+[PROMPT START]
+
+You're a conversion rate optimization specialist with experience running 500+ A/B tests across various industries.
+
+I want to improve: [PAGE URL OR DESCRIPTION]
+Current conversion rate: [PERCENTAGE]
+Current traffic: [MONTHLY VISITORS]
+Conversion goal: [ACTION WE WANT]
+Primary audience: [WHO]
+
+Generate a prioritized list of 10 A/B test hypotheses:
+
+For each hypothesis, provide:
+
+TEST [#]: [TEST NAME]
+Element to test: [WHAT WE'RE CHANGING]
+Current state: [WHAT EXISTS NOW]
+Hypothesis: "We believe that [CHANGE] will increase [METRIC] because [REASON]"
+Test variant description: [SPECIFIC CHANGE TO MAKE]
+Primary metric: [WHAT WE'RE MEASURING]
+Secondary metrics: [OTHER THINGS TO WATCH]
+Sample size needed: [BASED ON CURRENT STATS]
+Estimated impact: [LOW/MEDIUM/HIGH]
+Ease of implementation: [LOW/MEDIUM/HIGH]
+ICE Score: [IMPACT X CONFIDENCE X EASE / 3]
+
+Prioritize tests by ICE score (highest first).
+
+Also provide:
+- "Quick wins" that can be implemented without testing
+- Tests to AVOID (common mistakes)
+- Recommended testing sequence
+- Statistical significance requirements for this traffic level
+
+[PROMPT END]
+
+Tips for Use:
+Example Output: 10 prioritized A/B test hypotheses with complete implementation guidance.
+
+--------------------------------------------------
+Social Media & Content Planning
+--------------------------------------------------
+
+
+>>> 12. Social Media Content Calendar Generator
+
+[PROMPT START]
+
+You're a social media strategist who manages accounts with 500K+ followers. Create a content calendar that builds engagement and drives [GOAL: AWARENESS/TRAFFIC/LEADS/SALES].
+
+Platform focus: [PRIMARY PLATFORM]
+Business: [NAME]
+Industry: [TYPE]
+Target audience: [DESCRIPTION]
+Content themes/pillars: [LIST 3-5]
+Posting frequency: [TIMES PER WEEK]
+Brand voice: [DESCRIPTION]
+
+Generate a 4-week content calendar:
+
+For each post, include:
+- Day/Date slot
+- Content pillar
+- Post format (carousel, video, story, text, image, etc.)
+- Hook/first line
+- Content outline (key points)
+- Hashtag strategy (number and type)
+- CTA
+- Best posting time for this content type
+- Engagement prompt (question to ask)
+
+WEEK 1: [THEME]
+| Day | Pillar | Format | Hook | CTA |
+...
+
+WEEK 2: [THEME]
+...
+
+WEEK 3: [THEME]
+...
+
+WEEK 4: [THEME]
+...
+
+Also provide:
+- Content ratio recommendation (educational:entertaining:promotional)
+- Trending formats to incorporate this month
+- Repurposing strategy (how to extend each piece)
+- Engagement strategy (how to respond to comments)
+- Analytics to track weekly
+
+[PROMPT END]
+
+Tips for Use:
+Example Output: Complete 4-week content calendar with strategic guidance.
+
+>>> 13. Viral Content Hook Generator
+
+[PROMPT START]
+
+You're a content strategist who has created viral content (1M+ views) across LinkedIn, Twitter, TikTok, and Instagram.
+
+Create scroll-stopping hooks for:
+
+Topic: [SUBJECT MATTER]
+Platform: [WHERE THIS WILL BE POSTED]
+Content type: [EDUCATIONAL/STORYTELLING/CONTROVERSIAL/INSPIRATIONAL]
+Target audience: [WHO]
+Goal: [ENGAGEMENT/SHARES/CLICKS]
+
+Generate 15 hooks using different psychological triggers:
+
+CURIOSITY GAP HOOKS (3):
+[Create information gaps that demand resolution]
+
+CONTRARIAN HOOKS (3):
+[Challenge conventional wisdom]
+
+STORY HOOKS (3):
+[Start a compelling narrative]
+
+DATA/STAT HOOKS (3):
+[Lead with surprising numbers]
+
+RELATABLE STRUGGLE HOOKS (3):
+[Tap into shared experiences]
+
+For each hook, provide:
+- The hook (exact text, platform-appropriate length)
+- Why it works (psychological principle)
+- Best visual pairing suggestion
+- Risk level (safe/edgy)
+- Predicted engagement type (comments/shares/saves)
+
+Also provide:
+- Hooks to AVOID (overused patterns)
+- Platform-specific formatting tips
+- Best hook length for [PLATFORM]
+- How to test hooks before posting
+
+[PROMPT END]
+
+Tips for Use:
+Example Output: 15 platform-optimized hooks with psychological explanations and risk assessments.
+
+>>> 14. Influencer Outreach Campaign
+
+[PROMPT START]
+
+You're an influencer marketing manager who has run campaigns with 500+ influencers across various industries.
+
+Create an influencer outreach campaign for:
+
+Brand: [NAME]
+Product/Service: [DESCRIPTION]
+Campaign goal: [AWARENESS/SALES/UGC]
+Budget range: [TOTAL BUDGET]
+Timeline: [CAMPAIGN DATES]
+Target audience: [DEMOGRAPHICS + INTERESTS]
+
+Generate a complete influencer campaign playbook:
+
+1. INFLUENCER CRITERIA
+- Ideal follower range
+- Engagement rate minimum
+- Content style requirements
+- Audience demographics match
+- Platform priority ranking
+- Red flags to avoid
+
+2. OUTREACH TEMPLATES
+
+COLD DM (Micro-influencer):
+[Personalized, casual approach]
+
+COLD EMAIL (Mid-tier influencer):
+[Professional but personable]
+
+FOLLOW-UP MESSAGE (No response):
+[Non-pushy follow-up]
+
+NEGOTIATION RESPONSE:
+[Handling rate discussions]
+
+3. COLLABORATION TYPES
+Tier 1 (Nano: 1-10K): [OFFER TYPE + COMPENSATION]
+Tier 2 (Micro: 10-50K): [OFFER TYPE + COMPENSATION]
+Tier 3 (Mid: 50-500K): [OFFER TYPE + COMPENSATION]
+Tier 4 (Macro: 500K+): [OFFER TYPE + COMPENSATION]
+
+4. CREATIVE BRIEF
+- Campaign hashtag
+- Key messages (must include)
+- Talking points (suggested)
+- Do's and Don'ts
+- Disclosure requirements
+- Asset requirements (what we need from them)
+
+5. CONTRACT ESSENTIALS
+- Deliverables checklist
+- Exclusivity terms
+- Usage rights needed
+- Payment terms
+- Performance clauses
+
+6. TRACKING & MEASUREMENT
+- KPIs to track
+- Attribution method
+- Reporting template
+- Success benchmarks
+
+[PROMPT END]
+
+Tips for Use:
+Example Output: Complete influencer playbook from sourcing to measurement.
+
+>>> 15. Product Launch Campaign Planner
+
+[PROMPT START]
+
+You're a product launch specialist who has orchestrated launches generating $10M+ in revenue. Plan a comprehensive launch campaign.
+
+Product: [NAME + DESCRIPTION]
+Launch date: [DATE]
+Target customer: [PRIMARY PERSONA]
+Pricing: [PRICE + ANY LAUNCH PRICING]
+Unique angle: [WHAT MAKES THIS LAUNCH SPECIAL]
+Available channels: [LIST ALL OWNED + PAID CHANNELS]
+Budget: [LAUNCH BUDGET]
+Team resources: [WHO'S AVAILABLE]
+
+Create a launch campaign plan:
+
+PRE-LAUNCH (4 weeks out)
+Week -4: [ACTIVITIES]
+- Teaser content
+- List building tactics
+- Partner outreach
+- Affiliate recruitment
+
+Week -3: [ACTIVITIES]
+- Early access offers
+- Waitlist strategy
+- Influencer seeding
+
+Week -2: [ACTIVITIES]
+- Behind-the-scenes content
+- Social proof gathering
+- Tech/funnel testing
+
+Week -1: [ACTIVITIES]
+- Final push content
+- Urgency building
+- Cart open preparation
+
+LAUNCH WEEK
+Day 1 (Launch): [HOUR-BY-HOUR SCHEDULE]
+Day 2-3: [MOMENTUM ACTIVITIES]
+Day 4-5: [OBJECTION HANDLING]
+Day 6-7: [FINAL PUSH]
+
+POST-LAUNCH
+Week +1: [FOLLOW-UP ACTIVITIES]
+- Non-buyer nurture
+- Customer onboarding
+- Testimonial collection
+- Results documentation
+
+CHANNEL-BY-CHANNEL BREAKDOWN
+[For each channel, what specifically to post/send and when]
+
+LAUNCH DAY CHECKLIST
+[ ] [PRE-LAUNCH TASK]
+[ ] [LAUNCH TASK]
+[ ] [POST-LAUNCH TASK]
+
+CONTINGENCY PLANS
+- If sales are below target...
+- If site goes down...
+- If negative feedback emerges...
+- If competitor responds...
+
+KPIs & SUCCESS METRICS
+- Pre-launch: [METRICS]
+- Launch week: [METRICS]
+- Post-launch: [METRICS]
+
+[PROMPT END]
+
+Tips for Use:
+Example Output: Complete launch campaign with day-by-day activities and contingency plans.
+
+>>> 16. Customer Feedback Analysis Framework
+
+[PROMPT START]
+
+You're a customer insights analyst. Help me extract actionable insights from customer feedback.
+
+Feedback source: [REVIEWS/SURVEYS/SUPPORT TICKETS/INTERVIEWS]
+Volume of feedback: [NUMBER OF RESPONSES]
+Feedback data: [PASTE RAW FEEDBACK OR DESCRIBE]
+Business questions to answer:
+1. [QUESTION 1]
+2. [QUESTION 2]
+3. [QUESTION 3]
+
+Analyze and provide:
+
+1. THEME ANALYSIS
+[Identify major themes with frequency]
+| Theme | Frequency | Sentiment | Example Quotes |
+
+2. SENTIMENT BREAKDOWN
+- Overall sentiment score: [POSITIVE/NEUTRAL/NEGATIVE %]
+- Sentiment by theme
+- Sentiment trends (if temporal data available)
+
+3. CRITICAL INSIGHTS
+Top 5 things customers love:
+1. [INSIGHT + EVIDENCE]
+...
+
+Top 5 pain points:
+1. [INSIGHT + EVIDENCE]
+...
+
+Unexpected findings:
+[THINGS THAT SURPRISED YOU]
+
+4. VOICE OF CUSTOMER
+[Actual quotes to use in marketing, organized by use case]
+
+5. ACTIONABLE RECOMMENDATIONS
+Product/Service improvements:
+1. [RECOMMENDATION] - Impact: [H/M/L] - Effort: [H/M/L]
+...
+
+Marketing/Messaging opportunities:
+1. [RECOMMENDATION]
+...
+
+Support/Operations improvements:
+1. [RECOMMENDATION]
+...
+
+6. COMPETITIVE INTEL
+[Any mentions of competitors - what do they do better/worse?]
+
+7. FOLLOW-UP QUESTIONS
+[Questions to ask in future research based on gaps in current data]
+
+[PROMPT END]
+
+Tips for Use:
+Example Output: Comprehensive feedback analysis with prioritized, actionable recommendations.
+
+>>> 17. Pricing Page Copy & Strategy
+
+[PROMPT START]
+
+You're a pricing strategist and conversion copywriter. Help me optimize my pricing page.
+
+Product/Service: [DESCRIPTION]
+Current pricing tiers: [LIST WITH PRICES AND FEATURES]
+Target customer: [PRIMARY BUYER]
+Main competitor pricing: [WHAT OTHERS CHARGE]
+Average customer LTV: [LIFETIME VALUE]
+Current conversion rate: [IF KNOWN]
+
+Create an optimized pricing page:
+
+1. PRICING STRATEGY ANALYSIS
+- Current pricing model assessment
+- Recommended changes (if any)
+- Price anchoring opportunities
+- Decoy pricing recommendations
+
+2. TIER NAMING
+[Rename tiers to be benefit-focused, not feature-focused]
+Instead of: Basic, Pro, Enterprise
+Try: [RECOMMENDED NAMES]
+
+3. PAGE COPY
+
+Above pricing table:
+- Headline: [VALUE-FOCUSED]
+- Subheadline: [OBJECTION HANDLER OR TRUST SIGNAL]
+
+Per tier:
+TIER NAME
+- Tagline (who this is for)
+- Price presentation ($/mo vs $/year framing)
+- Feature list (benefit language, not feature language)
+- CTA button text
+- Social proof element
+
+Recommended tier (highlight):
+[WHICH TIER AND HOW TO VISUALLY EMPHASIZE]
+
+4. TRUST ELEMENTS
+- Guarantee copy
+- FAQ (objection handlers)
+- Social proof placement
+- Security/compliance badges
+
+5. COMPARISON TABLE
+[Feature comparison matrix with strategic feature ordering]
+
+6. PSYCHOLOGICAL OPTIMIZATIONS
+- Price anchoring technique
+- Decoy option (if applicable)
+- Default selection recommendation
+- Annual vs monthly toggle strategy
+- Enterprise contact approach
+
+7. MOBILE CONSIDERATIONS
+[How to adapt for mobile viewing]
+
+[PROMPT END]
+
+Tips for Use:
+Example Output: Complete pricing page strategy with copy, layout recommendations, and psychological optimization tactics.
+
+>>> 18. Email Newsletter Strategy & Templates
+
+[PROMPT START]
+
+You're an email marketing strategist who has grown newsletters to 100K+ subscribers with 40%+ open rates.
+
+Create a newsletter strategy for:
+
+Business: [NAME]
+Industry: [TYPE]
+Newsletter goal: [NURTURE/MONETIZE/TRAFFIC]
+Target subscriber: [DESCRIPTION]
+Sending frequency: [WEEKLY/BIWEEKLY/DAILY]
+Current list size: [NUMBER]
+Content sources: [WHAT CAN WE WRITE ABOUT]
+
+Generate a complete newsletter playbook:
+
+1. NEWSLETTER POSITIONING
+- Name recommendations (5 options)
+- Value proposition (what subscribers get)
+- Unique angle vs. other newsletters
+- Personality/voice guidelines
+
+2. CONTENT FORMAT
+Recommended structure:
+- Section 1: [TYPE + PURPOSE]
+- Section 2: [TYPE + PURPOSE]
+- Section 3: [TYPE + PURPOSE]
+- CTA: [WHAT ACTION WE WANT]
+
+Optimal length: [WORD COUNT]
+Read time: [MINUTES]
+
+3. SUBJECT LINE FORMULA
+5 proven formulas for this newsletter type:
+1. [FORMULA + EXAMPLE]
+...
+
+Preview text strategy:
+[HOW TO USE PREVIEW TEXT EFFECTIVELY]
+
+4. CONTENT CALENDAR
+Week 1 theme: [TOPIC]
+Week 2 theme: [TOPIC]
+Week 3 theme: [TOPIC]
+Week 4 theme: [TOPIC]
+[Monthly rotation recommendation]
+
+5. TEMPLATE
+[Complete template with placeholder text]
+
+6. GROWTH TACTICS
+Top 5 newsletter growth strategies for [INDUSTRY]:
+1. [TACTIC + HOW TO IMPLEMENT]
+...
+
+7. MONETIZATION OPTIONS
+- Direct: [SPONSORSHIPS/PAID TIER]
+- Indirect: [PRODUCT PROMOTION/AFFILIATE]
+- Timeline: [WHEN TO MONETIZE]
+
+8. METRICS TO TRACK
+- Growth: [METRICS]
+- Engagement: [METRICS]
+- Revenue: [METRICS]
+- Benchmark targets
+
+[PROMPT END]
+
+Tips for Use:
+Example Output: Complete newsletter strategy with templates and growth tactics.
+
+>>> 19. Crisis Communication Response
+
+[PROMPT START]
+
+You're a crisis communications expert. Help me respond to a PR/reputation situation.
+
+Situation: [DESCRIBE WHAT HAPPENED]
+Severity: [MINOR COMPLAINT/MODERATE ISSUE/MAJOR CRISIS]
+Platform where it originated: [WHERE]
+Current reach/visibility: [HOW MANY PEOPLE AWARE]
+Our role: [OUR FAULT/PARTIAL FAULT/NOT OUR FAULT/UNCLEAR]
+Stakeholders affected: [CUSTOMERS/EMPLOYEES/INVESTORS/PUBLIC]
+Time pressure: [IMMEDIATE/WITHIN HOURS/CAN WAIT]
+
+Generate a crisis response plan:
+
+1. IMMEDIATE ACTIONS (First 30 minutes)
+- [ ] [ACTION ITEM]
+- [ ] [ACTION ITEM]
+- [ ] [ACTION ITEM]
+
+2. RESPONSE STATEMENT
+[Complete statement to post publicly]
+
+Key elements:
+- Acknowledgment
+- Accountability (if appropriate)
+- Action being taken
+- Commitment to resolution
+
+3. RESPONSE VARIATIONS
+- Short version (for social media)
+- Long version (for press/blog)
+- Internal version (for team)
+- Customer-specific version (for direct outreach)
+
+4. Q&A PREP
+Anticipated questions and responses:
+Q: [LIKELY QUESTION 1]
+A: [APPROVED RESPONSE]
+...
+
+5. CHANNEL STRATEGY
+[Where to post, where to respond, where to stay silent]
+
+6. STAKEHOLDER COMMUNICATION
+- Customers: [WHAT TO SAY + WHEN]
+- Employees: [WHAT TO SAY + WHEN]
+- Partners: [WHAT TO SAY + WHEN]
+- Media: [APPROACH]
+
+7. MONITORING PLAN
+- What to track
+- Escalation triggers
+- Response cadence
+
+8. FOLLOW-UP PLAN
+- 24-hour update
+- Resolution announcement
+- Lessons learned documentation
+
+WHAT NOT TO DO:
+[Common mistakes to avoid for this type of situation]
+
+[PROMPT END]
+
+Tips for Use:
+Example Output: Complete crisis response plan with statements, Q&A prep, and stakeholder communication strategy.
+
+>>> 20. Marketing Campaign ROI Calculator & Framework
+
+[PROMPT START]
+
+You're a marketing analytics expert. Help me plan and project the ROI of a marketing campaign.
+
+Campaign type: [PAID ADS/EMAIL/CONTENT/INFLUENCER/ETC]
+Budget: [TOTAL INVESTMENT]
+Timeline: [DURATION]
+Goal: [WHAT WE'RE TRYING TO ACHIEVE]
+
+Current metrics (fill in what you know):
+- Website traffic: [MONTHLY]
+- Conversion rate: [%]
+- Average order value: [AMOUNT]
+- Customer lifetime value: [AMOUNT]
+- Current cost per acquisition: [AMOUNT]
+
+Campaign specifics:
+- Channels: [WHERE WE'RE ADVERTISING]
+- Target audience: [WHO]
+- Offer: [WHAT WE'RE PROMOTING]
+
+Generate:
+
+1. PROJECTION MODEL
+Best case / Expected / Worst case scenarios:
+
+| Metric | Best | Expected | Worst |
+|--------|------|----------|-------|
+| Impressions | | | |
+| Click-through rate | | | |
+| Clicks | | | |
+| Cost per click | | | |
+| Landing page conv. | | | |
+| Leads/Sales | | | |
+| Cost per acquisition | | | |
+| Revenue generated | | | |
+| ROI | | | |
+
+2. BREAK-EVEN ANALYSIS
+- Break-even sales needed: [NUMBER]
+- Break-even conversion rate needed: [%]
+- Days to break-even (projected): [NUMBER]
+
+3. BENCHMARK COMPARISON
+Industry benchmarks for [CAMPAIGN TYPE]:
+- Average CTR: [%]
+- Average CPC: [$]
+- Average conversion rate: [%]
+- Average CAC: [$]
+
+How your projections compare: [ANALYSIS]
+
+4. TRACKING REQUIREMENTS
+- Pixels/tracking needed
+- UTM structure
+- Conversion events to set up
+- Attribution model recommendation
+
+5. OPTIMIZATION TRIGGERS
+If CPC exceeds [X], then [ACTION]
+If conversion rate drops below [X], then [ACTION]
+If CAC rises above [X], then [ACTION]
+
+6. REPORTING TEMPLATE
+[Weekly metrics to track + format]
+
+7. POST-CAMPAIGN ANALYSIS FRAMEWORK
+Questions to answer after campaign:
+1. [QUESTION]
+...
+
+[PROMPT END]
+
+Tips for Use:
+Example Output: Complete ROI projection with scenario modeling, benchmarks, and optimization triggers.
+
+--------------------------------------------------
+Quick Reference: Prompt Techniques Used in This Pack
+--------------------------------------------------
+
+
+============================================================
+Generated by PerfectPrompts.ai
+============================================================
